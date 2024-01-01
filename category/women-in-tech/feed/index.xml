@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Women in Tech &#8211; Luna Station Quarterly</title>
+	<atom:link href="https://lunastationquarterly.com/category/women-in-tech/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lunastationquarterly.com/</link>
+	<description>Stellar Short Fiction by Women-Identified Writers Since 2010</description>
+	<lastBuildDate>Wed, 20 May 2020 18:43:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>5 ways I’m not a “real” developer and the 1 way I am</title>
+		<link>https://lunastationquarterly.com/5-ways-im-not-a-real-developer-and-the-1-way-i-am/</link>
+		
+		<dc:creator><![CDATA[Jennifer Lyn Parsons]]></dc:creator>
+		<pubDate>Thu, 07 Apr 2016 16:05:12 +0000</pubDate>
+				<category><![CDATA[Women in Tech]]></category>
+		<guid isPermaLink="false">https://lunastationquarterly.com/?p=6170</guid>
+
+					<description><![CDATA[There is a lot of crossover between the tech world and the speculative fiction/literature/writing/reading world.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>There is a lot of crossover between the tech world and the speculative fiction/literature/writing/reading world. Many readers are also developers or involved in the tech industry in some way. This new column will give some insights into that intersection and where women are finding their place in that world. You may also learn some surprising things about the industry that keeps the internet running.</p>
+<p>To start things off, I&#8217;d like to dispel a few myths that you might have about what it means to be a developer and what makes someone qualified to claim that title.</p>
+<p><strong>I don’t drink coffee. Or alcohol, for that matter.</strong></p>
+<p>For the record, I drink tea. A lot of it. But the coffee culture that saturates the tech industry goes hand in hand with an attitude that unless you are working 24/7 and require all that caffeine, unless you are pushing yourself to the physical limits of your endurance, then you must not really care about what you’re doing for a living.</p>
+<p>Working to the point of physical exhaustion is damaging to your health, first and foremost, but it is also counter productive to actually producing good code and ideas. Decision fatigue is a thing. It can’t be ignored. There is a law of diminishing returns that takes effect after a certain amount of time and you will actually start to make more mistakes.</p>
+<p>And the alcohol thing? There are a plethora of job listings where a fully stocked beer fridge is actually described as a benefit to working at the company. If you happen to be a drinker, then maybe this works for you. It does nothing for me and is actually a pretty big turn off. When does this drinking occur? During work hours? Will I be made to feel like I’m not part of the team because I don’t partake? Being in an environment where drinking is a part of the company culture is less welcoming than companies might think. Never mind the insensitivity this shows towards potential employees who may be in recovery.</p>
+<p><strong>I’m not a guy and I’m not a Millennial and I’m not straight.<a href="https://lunastationquarterly.com/wp-content/uploads/2016/03/ucgFhSLs.jpg" rel="attachment wp-att-6280"><img fetchpriority="high" decoding="async" class="right-image alignright wp-image-6280 size-medium" src="https://lunastationquarterly.com/wp-content/uploads/2016/03/ucgFhSLs-300x300.jpg" alt="ucgFhSLs" width="300" height="300" /></a></strong></p>
+<p>I am a 40 year old queer woman. You can actually call me ‘dude’ and I won’t flinch at it, I won’t get offended. Just remember that there are a lot of developers in the industry that don’t identify as male and didn’t grow up using the internet.</p>
+<p>This brings a lot of different perspectives to the industry.</p>
+<p>Something that doesn’t get mentioned much when discussing diversity in tech is age diversity. I was in my early 20s before I got online. This means that I really do remember a time when “goggleing” something wasn’t an option. That doesn’t make me out of touch and it doesn’t make me a bad developer. I have experience and insights that someone fifteen years my junior won’t have. My brain works a little differently because of that experience. And if you are working on a product that caters to anyone over the age of 30, you’re going to need that perspective.</p>
+<p>There are a lot of us out there that simply don’t fit the “white straight guy” developer stereotype, and we’re building the internet on all levels. Diversity truly is a strength and something the industry needs in order to evolve. With different experiences you also get different perspectives and developers that will literally be coming up with solutions from a very different place. There have been numerous occasions where I’ve come up with a solution and my fellow developers have said “I never would have thought of that, that’s really clever”. Diversity leads to outside the box thinking. This is a strength. The internet needs us.</p>
+<p><strong>I don’t spend all my free time coding.</strong></p>
+<p>I love developing. I love writing code and then loading up the browser and seeing what I just wrote effect what’s happening on the page. I love debugging something and then finding the solution that fixes everything and literally throwing my hands into the air because “YESSSS I FIXED IT”.</p>
+<p>However, I do other things as well. I read and write and hang out with my dear ones. I play video games and knit. I run a literary magazine and help women writers get their stories out into the world.</p>
+<p>I do all of these things in my down time. When I come back to the computer to start work again, I’m refreshed, my brain is clear, I can look at everything with fresh eyes and a new perspective, built on the things I did when I was offline.</p>
+<p>Rest and refreshing ourselves is not a necessary evil. It is a necessary boon to our work and our industry. Time away helps us remember why we’re building something in the first place. It reminds us that there is a world outside of the computer and that world has a lot to offer as well. Time off helps me look at my code and remember that real people are going to (hopefully) use it to make their lives better or easier or more productive, even if it’s just for five minutes.</p>
+<p>The trend in our industry toward an “always on” attitude is damaging. There are new tools, new techniques coming out all the time, but it often feels like there is a developer version of FOMO. If you’re not keeping up with everything going on then you must not be a good developer. There’s no measured approach to things. Instead there is a habit of throwing spaghetti at the wall and seeing what sticks rather than taking a measured planned approach for what’s going to still work a year or two from now.</p>
+<p><strong>I’m not sarcastic and I won’t condescend when I talk to you.</strong></p>
+<p>There is a stereotype of the “brogrammer”, that guy who talks to you like you’re a loser if you don’t understand his complex C++ logic and hang out in chat rooms trading programmer jokes. This is a case of the vocal minority making everyone else look bad.</p>
+<p>Do these guys exist? Of course they do. I’ve been very very fortunate in my career that I’ve never had to work with one, though I’ve known many people who have. The people I have worked with, regardless of what level of experience they bring to the table, have been helpful and generous with their knowledge and generally kind, responsible individuals. Barring that, they have all been professional at the very least.</p>
+<p>And if you ask me to explain my job, I may unintentionally talk a bit over your head, but I won’t be doing it because I think I’m smarter than you.</p>
+<p><strong>I didn’t get a Computer Science degree.</strong></p>
+<p>This is one point that exposes a couple of different facets to the industry. There is definitely a huge benefit to having a degree in this field. If someone is just starting out, I do recommend at least researching the opportunity, if it’s available.</p>
+<p>At the same time, there are many many people who are fine developers who do not have this traditional background. To some degree, pursuing this field of study means accepting that, other than foundational topics, what you learn will be outdated long before you graduate.</p>
+<p>Bootcamps have sprung up to fill the gap and provide a way to learn the latest, most stable development techniques and train people for what the industry needs right now. These are valid ways of going about getting into the field.</p>
+<p>However, there are plenty of us out there, writing code every day, that have taught ourselves everything we know. A variety of online courses and programs are available, and the quality of these resources has increased exponentially since I started in the field. Learning new skills and refining the old ones has become more accessible to everyone and the potential quality of the self-taught developer increases right along with it.</p>
+<p><strong>So, if I’m none of these thing, then how do I get to call myself a “developer”?</strong></p>
+<p>I’ve broken down a lot of the stereotypes about those of us who make websites and apps and software for a living. But at the end of the day there’s only one reason I feel like I can call myself a developer. It’s pretty simple, but it’s also the only real requirement for having a place at the table:</p>
+<p><strong>I write code.</strong></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
