@@ -1,0 +1,25 @@
+---
+import Page from "../../layouts/Page.astro";
+import { SITE_DESCRIPTION } from "../../consts";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+
+const issues = (await getCollection("issues")).sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
+---
+
+<Page title="Issues" description={SITE_DESCRIPTION}>
+  <ul>
+    {
+      issues.map((issue) => (
+        <li>
+          <a href={`/issues/${issue.slug}/`}>
+            <h4 class="title">{issue.data.title}</h4>
+            <p class="date">
+              <FormattedDate date={issue.data.pubDate} />
+            </p>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Page>
