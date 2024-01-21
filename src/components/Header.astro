@@ -1,16 +1,19 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
-import { SITE_TITLE } from "../consts";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <header>
-  <nav>
-    <h2><a href="/">{SITE_TITLE}</a></h2>
-    <div class="internal-links">
-      <HeaderLink href="/">Home</HeaderLink>
-      <HeaderLink href="/blog">Blog</HeaderLink>
-      <HeaderLink href="/issues">Issues</HeaderLink>
-      <HeaderLink href="/about">About</HeaderLink>
+  <div id="headerHero" class="flex justify-center my-9 text-center">
+    <div>
+      <h1 class="text-5xl uppercase font-bold sans-serif"><a href="/">{SITE_TITLE}</a></h1>
+      <h2>{SITE_DESCRIPTION}</h2>
     </div>
+  </div>
+  <nav>
+    <HeaderLink href="/">Home</HeaderLink>
+    <HeaderLink href="/blog">Blog</HeaderLink>
+    <HeaderLink href="/issues">Issues</HeaderLink>
+    <HeaderLink href="/about">About</HeaderLink>
   </nav>
 </header>
