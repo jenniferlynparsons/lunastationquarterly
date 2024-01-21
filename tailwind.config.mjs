@@ -5,11 +5,25 @@ export default {
 		container: {
 			center: true,
 		},
+		borderWidth: {
+			'header': '24px',
+		},
+		colors: {
+			'lsq-green': '#b6ac31',
+			'lsq-orange': '#d24719',
+			'lsq-white': '#ffffff',
+		  },
 		fontFamily: {
 			sans: ['Oswald', 'sans-serif'],
 			serif: ['Libre Baskerville', 'serif'],
 		},
-		extend: {},
+		backgroundImage: {
+			'header': "url('/images/header.png')"
+		  },
+		
+		extend: {
+			
+		},
 	},
 	plugins: [],
 }
