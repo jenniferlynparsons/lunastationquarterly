@@ -11,6 +11,7 @@ export default {
 		colors: {
 			'lsq-green': '#b6ac31',
 			'lsq-orange': '#d24719',
+			'lsq-orange-light': '#DC6D48',
 			'lsq-white': '#ffffff',
 		  },
 		fontFamily: {
