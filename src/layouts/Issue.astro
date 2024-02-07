@@ -6,7 +6,7 @@ import Footer from "../components/Footer.astro";
 
 type Props = CollectionEntry<"issues">["data"];
 
-const { title, description, pubDate, stories, authors } = Astro.props;
+const { title, pubDate, stories, authors } = Astro.props;
 
 const storiesList = stories.map((storyTitle, i) => {
   return `${storyTitle} by ${authors[i]}`;
@@ -22,6 +22,7 @@ const storiesList = stories.map((storyTitle, i) => {
     <Header />
     <main class="container">
       <h1>{title}</h1>
+      <h2>{pubDate}</h2>
       <slot />
       <ul>
         {storiesList.map((story) => <li>{story}</li>)}

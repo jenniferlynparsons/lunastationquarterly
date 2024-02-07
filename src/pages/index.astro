@@ -1,44 +1,91 @@
 ---
 import Page from "../layouts/Page.astro";
 import { SITE_DESCRIPTION } from "../consts";
-import { getCollection } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
-
-const posts = (await getCollection("blog"))
-  .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf())
-  .reverse()
-  .slice(0, 3);
 ---
 
 <Page title="Blog" description={SITE_DESCRIPTION}>
-  <ul>
-    {
-      posts.map((post) => (
-        <li>
-          <div>
-            <a href={`/blog/${post.slug}/`}>
-              {post.data.heroImage && <img src={post.data.heroImage} alt={post.data.heroAltText} />}
-            </a>
-          </div>
-          <div>
-            {post.data.postCategory && (
-              <a href={post.data.categorySlug}>
-                <p class="category">{post.data.postCategory}</p>
-              </a>
-            )}
-            <a href={`/blog/${post.slug}/`}>
-              <h4 class="title">{post.data.title}</h4>
-            </a>
-            <a href={`/authors/${post.data.authorSlug}`}>{post.data.author}</a>
-            <p class="date">
-              <FormattedDate date={post.data.pubDate} />
-            </p>
+  <div class="mb-10">
+    <h1 class="text-4xl font-sans mb-5">Welcome to Luna Station Quarterly!</h1>
+    <p class="mb-2">We're in a bit of a transition right now, so our site is a little bare.</p>
+    <p class="mb-2">
+      If you'd like to keep up with us, please <a
+        href="https://www.patreon.com/lunastation"
+        class="text-lsq-orange hover:text-lsq-orange-light">follow us on Patreon</a
+      >. We'll be posting public updates there as we work. It's also a great place to support the work we do and get
+      some behind-the-scenes insights from our Editor-in-Chief!
+    </p>
+  </div>
+  <div class="mb-10">
+    <h2 class="text-4xl font-sans mb-5">Looking for our issues?</h2>
+    <p class="mb-2">You can pick up a copy of our issues in digital and gorgeous print!</p>
 
-            <p>{post.data.excerpt}</p>
-            <a href={`/blog/${post.slug}/`}>Read more</a>
-          </div>
-        </li>
-      ))
-    }
-  </ul>
+    <h3 class="text-xl font-sans mb-1">Our most recent print editions</h3>
+    <ul class="mb-5 list-disc list-inside">
+      <li>
+        <a
+          href="https://www.amazon.com/dp/B08QJCG8VZ?binding=paperback&ref=dbs_m_mng_rwt_sft_tpbk_tkin"
+          class="text-lsq-orange hover:text-lsq-orange-light">Amazon</a
+        >
+      </li>
+    </ul>
+    <h3 class="text-xl font-sans mb-1">Digital editions</h3>
+    <ul class="mb-5 list-disc list-inside">
+      <li>
+        <a href="https://lunastationpress.gumroad.com/" class="text-lsq-orange hover:text-lsq-orange-light">Gumroad</a>
+      </li>
+      <li>
+        <a
+          href="https://weightlessbooks.com/category/publisher/luna-station-press/"
+          class="text-lsq-orange hover:text-lsq-orange-light">Weightless Books</a
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="mb-10">
+    <h2 class="text-4xl font-sans mb-5">Want to submit a story?</h2>
+    <p class="mb-2">We're currently open for submissions! Our current submission period ends on February 15th.</p>
+    <p class="mb-2">
+      You can find our guidelines and submit your story on <a
+        href="https://submissions.lunastationpress.com/"
+        class="text-lsq-orange hover:text-lsq-orange-light">our submission site</a
+      >.
+    </p>
+  </div>
+  <div class="mb-10">
+    <h2 class="text-4xl font-sans mb-5">Need to get in touch?</h2>
+    <p class="mb-10">
+      If you have any questions, comments, or just want to say hi, please feel free to reach out to us using the form
+      below. We'll get back to you as soon as we can.
+    </p>
+    <form action="https://formspree.io/f/mzbnzjpa" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <div class="mb-4">
+        <label class="block text-gray-700 mb-2" for="email">Your email:</label>
+        <input
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email address"
+        />
+      </div>
+      <div class="mb-6">
+        <label class="block text-gray-700 mb-2" for="message">Your message:</label>
+        <textarea
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 focus:outline-none focus:shadow-outline"
+          id="message"
+          rows="5"
+          name="message"
+          placeholder="Message"></textarea>
+      </div>
+      <div class="flex items-center justify-between">
+        <button
+          class="bg-lsq-orange hover:bg-lsq-orange-light text-lsq-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          type="submit"
+        >
+          Send
+        </button>
+      </div>
+    </form>
+  </div>
 </Page>
