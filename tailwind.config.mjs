@@ -7,6 +7,7 @@ export default {
 		},
 		borderWidth: {
 			'header': '24px',
+			'footer' : '8px',
 		},
 		colors: {
 			'lsq-green': '#b6ac31',
