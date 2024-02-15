@@ -7,6 +7,7 @@ export default {
 		},
 		borderWidth: {
 			'header': '24px',
+			'subfooter': '4px',
 			'footer' : '8px',
 		},
 		colors: {
@@ -20,8 +21,7 @@ export default {
 		},
 		backgroundImage: {
 			'header': "url('/images/header.png')"
-		  },
-		
+		},
 		extend: {
 			
 		},
