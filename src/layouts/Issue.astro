@@ -23,8 +23,9 @@ const {
   coverTitle,
 } = Astro.props;
 
-const storiesList = stories.map((storyTitle, i) => {
-  return `${storyTitle} by ${authors[i]}`;
+const authorsList = authors.map((author) => {
+  const authorSlug = author.replace(/\s+/g, "-").toLowerCase();
+  return { author, authorSlug };
 });
 ---
 
@@ -57,7 +58,16 @@ const storiesList = stories.map((storyTitle, i) => {
       </p>
       <h2 class="mt-10 mb-4 font-sans">Table of Contents</h2>
       <ul class="list-disc≈">
-        {storiesList.map((story) => <li>{story}</li>)}
+        {
+          stories.map((story, i) => (
+            <li>
+              <span class="italic">"{story}"</span> by{" "}
+              <a href=`/authors/${authorsList[i].authorSlug}` class="text-xs uppercase">
+                {authorsList[i].author}
+              </a>
+            </li>
+          ))
+        }
       </ul>
     </div>
   </div>
