@@ -13,7 +13,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
   </head>
   <body>
     <Header title={SITE_TITLE} />
-    <div class="container w-full flex flex-col sm:flex-row flex-grow overflow-hidden mt-10 mb-20 font-serif max-w-5xl">
+    <div
+      class="container w-full flex flex-col sm:flex-row flex-grow overflow-hidden mt-10 mb-20 font-serif text-lsq-black max-w-5xl antialiased prose"
+    >
       <main role="main" class="w-full h-full flex-grow p-3">
         <slot />
       </main>

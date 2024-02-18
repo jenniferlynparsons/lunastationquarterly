@@ -26,9 +26,18 @@ const issues = defineCollection({
 		description: z.string().optional(),
 		// Transform string to Date object
 		pubDate: z.coerce.date(),
+		coverImage: z.string().optional(),
+		coverTitle: z.string().optional(),
+		artistName: z.string().optional(),
+		artistLink: z.string().optional(),
 		stories: z.array(z.string()),
 		authors: z.array(z.string()),
 		authorSlugs: z.array(z.string()).optional(),
+		amazonLink: z.string().optional(),
+		gumroadLink: z.string().optional(),
+		weightlessLink: z.string().optional(),
+		koboLink: z.string().optional(),
+		kindleLink: z.string().optional(),
 	}),
 });
 

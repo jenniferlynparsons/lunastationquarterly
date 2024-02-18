@@ -1,9 +1,27 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import PageContainer from "../components/PageContainer.astro";
+import PageHeader from "../components/PageHeader.astro";
+
+import LinkButton from "../components/LinkButton.astro";
+import CoverImage from "../components/CoverImage.astro";
 type Props = CollectionEntry<"issues">["data"];
 
-const { title, pubDate, stories, authors } = Astro.props;
+const {
+  title,
+  pubDate,
+  stories,
+  authors,
+  gumroadLink,
+  weightlessLink,
+  kindleLink,
+  koboLink,
+  coverImage,
+  amazonLink,
+  artistLink,
+  artistName,
+  coverTitle,
+} = Astro.props;
 
 const storiesList = stories.map((storyTitle, i) => {
   return `${storyTitle} by ${authors[i]}`;
@@ -11,10 +29,36 @@ const storiesList = stories.map((storyTitle, i) => {
 ---
 
 <PageContainer>
-  <h1>{title}</h1>
-  <h2>{pubDate}</h2>
-  <slot />
-  <ul>
-    {storiesList.map((story) => <li>{story}</li>)}
-  </ul>
+  <PageHeader title={title} pubDate={pubDate} />
+  <div class="container w-full flex flex-col sm:flex-row overflow-hidden mb-20 max-w-5xl">
+    <div class="w-full h-full p-3 max-w-80">
+      <CoverImage imagePath={coverImage ?? ""} altText={`Cover of ${title}`} />
+      <div>
+        <p class="mt-4 mb-0">Choose a gorgeous print edition:</p>
+        <LinkButton url={amazonLink} linkText="Amazon" />
+
+        <p class="mt-4 mb-0">
+          Buy a digital copy direct from us: <span class="text-xs">(Includes EPUB, MOBI &amp; PDF, DRM-free!)</span>
+        </p>
+        <LinkButton url={gumroadLink} linkText="Gumroad" />
+
+        <p class="mt-4 mb-0">Or buy digital from our retailers:</p>
+        <LinkButton url={weightlessLink} linkText="Weightless Books" />
+        <LinkButton url={koboLink} linkText="Kobo" />
+        <LinkButton url={kindleLink} linkText="Kindle" />
+      </div>
+    </div>
+    <div class="w-full h-full p-3 lg:ml-4 xl:ml-4">
+      <slot />
+      <h2 class="mt-10 mb-4 font-sans">Cover art</h2>
+      <p>
+        The cover art for this issue is <span class="italic">"{coverTitle}"</span> by {artistName}. See more of their
+        work at <a href={artistLink}>their website</a>.
+      </p>
+      <h2 class="mt-10 mb-4 font-sans">Table of Contents</h2>
+      <ul class="list-disc≈">
+        {storiesList.map((story) => <li>{story}</li>)}
+      </ul>
+    </div>
+  </div>
 </PageContainer>
