@@ -41,5 +41,20 @@ const issues = defineCollection({
 	}),
 });
 
+const authors = defineCollection({
+	type: 'content',
+	// Type-check frontmatter using a schema
+	schema: z.object({
+		authorName: z.string(),
+		authorWebsite: z.string().optional().nullable(),
+		authorTwitter: z.string().optional().nullable(),
+		authorFacebook: z.string().optional().nullable(),
+		authorGoodreads: z.string().optional().nullable(),
+		authorTumblr: z.string().optional().nullable(),
+		authorMastodon: z.string().optional().nullable(),
+		authorBluesky: z.string().optional().nullable(),
+		authorInstagram: z.string().optional().nullable(),
+	}),
+});
 
-export const collections = { blog, issues };
+export const collections = { blog, issues, authors };

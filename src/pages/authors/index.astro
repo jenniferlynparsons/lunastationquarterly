@@ -1,0 +1,19 @@
+---
+import Page from "../../layouts/Page.astro";
+import { SITE_DESCRIPTION } from "../../consts";
+import { getCollection } from "astro:content";
+
+const authors = await getCollection("authors");
+---
+
+<Page title="authors" description={SITE_DESCRIPTION}>
+  <ul>
+    {
+      authors.map((author) => (
+        <li>
+          <a href={`/authors/${author.slug}/`}>{author.data.authorName}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Page>
