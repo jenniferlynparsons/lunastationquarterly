@@ -1,24 +1,7 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import Subfooter from "../components/Subfooter.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import PageContainer from "../components/PageContainer.astro";
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-  </head>
-  <body>
-    <Header title={SITE_TITLE} />
-    <div class="container w-full flex flex-col sm:flex-row flex-grow overflow-hidden mt-10 mb-20 font-serif max-w-5xl">
-      <main role="main" class="w-full h-full flex-grow p-3 overflow-auto">
-        <slot />
-      </main>
-    </div>
-    <Subfooter />
-    <Footer />
-  </body>
-</html>
+<PageContainer>
+  <slot />
+</PageContainer>
