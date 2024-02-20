@@ -13,18 +13,40 @@ export default {
 		colors: {
 			'lsq-green': '#b6ac31',
 			'lsq-orange': '#d24719',
+			'lsq-orange-light': '#DC6D48',
 			'lsq-white': '#ffffff',
+			'lsq-black': '#222222',
 		  },
 		fontFamily: {
 			sans: ['Oswald', 'sans-serif'],
 			serif: ['Libre Baskerville', 'serif'],
 		},
+		textColor: {
+			'lsq-green': '#b6ac31',
+			'lsq-orange': '#d24719',
+			'lsq-orange-light': '#DC6D48',
+			'lsq-gray': '#3d3d3d',
+			'lsq-white': '#ffffff',
+			'lsq-black': '#222222',
+		},
 		backgroundImage: {
 			'header': "url('/images/header.png')"
 		},
 		extend: {
-			
+			typography: {
+				DEFAULT: {
+				  css: {
+					color: '#222',
+					a: {
+					  color: '#d24719',
+					  '&:hover': {
+						color: '#b6ac31',
+					  },
+					},
+				  },
+				},
+			  },
 		},
 	},
-	plugins: [],
+	plugins: [require('@tailwindcss/typography'),],
 }

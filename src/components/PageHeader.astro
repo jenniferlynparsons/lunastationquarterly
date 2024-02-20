@@ -1,0 +1,26 @@
+---
+import FormattedDate from "../components/FormattedDate.astro";
+
+const { title, pubDate } = Astro.props;
+---
+
+<div>
+  <h1 class="font-sans mb-2">{title}</h1>
+  {
+    pubDate && (
+      <p>
+        <FormattedDate date={pubDate} />
+      </p>
+    )
+  }
+</div>
+
+<style>
+  div::after {
+    background: #d24719;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+  }
+</style>

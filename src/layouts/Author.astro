@@ -1,0 +1,67 @@
+---
+import type { CollectionEntry } from "astro:content";
+import PageContainer from "../components/PageContainer.astro";
+import PageHeader from "../components/PageHeader.astro";
+import SocialMediaIcon from "@components/SocialMediaIcon.astro";
+
+type Props = CollectionEntry<"authors">["data"];
+
+const {
+  authorName,
+  authorWebsite,
+  authorBluesky,
+  authorFacebook,
+  authorGoodreads,
+  authorInstagram,
+  authorMastodon,
+  authorTumblr,
+  authorTwitter,
+} = Astro.props;
+---
+
+<PageContainer>
+  <PageHeader title={authorName} />
+  <slot />
+  <div class="container w-full flex flex-row pb-20">
+    {
+      authorWebsite && (
+        <SocialMediaIcon href={authorWebsite} src="/images/social_media_icons/rss_icon.png" alt="Website" />
+      )
+    }
+    {
+      authorTwitter && (
+        <SocialMediaIcon href={authorTwitter} src="/images/social_media_icons/twitter_icon.png" alt="Twitter" />
+      )
+    }
+    {
+      authorFacebook && (
+        <SocialMediaIcon href={authorFacebook} src="/images/social_media_icons/facebook_icon.png" alt="Facebook" />
+      )
+    }
+    {
+      authorInstagram && (
+        <SocialMediaIcon href={authorInstagram} src="/images/social_media_icons/instagram_icon.png" alt="Instagram" />
+      )
+    }
+    {
+      authorTumblr && (
+        <SocialMediaIcon href={authorTumblr} src="/images/social_media_icons/tumblr_icon.png" alt="Tumblr" />
+      )
+    }
+    {
+      authorGoodreads && (
+        <SocialMediaIcon href={authorGoodreads} src="/images/social_media_icons/goodreads_icon.png" alt="Goodreads" />
+      )
+    }
+    {
+      authorMastodon && (
+        <SocialMediaIcon href={authorMastodon} src="/images/social_media_icons/mastodon_icon.png" alt="Mastodon" />
+      )
+    }
+    {
+      authorBluesky && (
+        <SocialMediaIcon href={authorBluesky} src="/images/social_media_icons/bluesky_icon.png" alt="Bluesky" />
+      )
+    }
+  </div>
+</PageContainer>
