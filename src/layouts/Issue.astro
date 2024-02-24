@@ -24,7 +24,7 @@ const {
 } = Astro.props;
 
 const authorsList = authors.map((author) => {
-  const authorSlug = author.replace(/\s+/g, "-").toLowerCase();
+  const authorSlug = author.replace(/[.\s]+/g, "-").toLowerCase();
   return { author, authorSlug };
 });
 ---
