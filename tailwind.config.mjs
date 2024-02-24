@@ -7,6 +7,8 @@ export default {
 		},
 		borderWidth: {
 			'header': '24px',
+			'navbar': '1px',
+			'navlink': '2px',
 			'subfooter': '4px',
 			'footer' : '8px',
 		},
@@ -16,6 +18,7 @@ export default {
 			'lsq-orange-light': '#DC6D48',
 			'lsq-white': '#ffffff',
 			'lsq-black': '#222222',
+			'lsq-gray-light': '#eeeeee',
 		  },
 		fontFamily: {
 			sans: ['Oswald', 'sans-serif'],
