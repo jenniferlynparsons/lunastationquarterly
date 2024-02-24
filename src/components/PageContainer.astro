@@ -1,6 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
+import NavBar from "../components/NavBar.astro";
 import Footer from "../components/Footer.astro";
 import Subfooter from "../components/Subfooter.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
@@ -13,6 +14,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
   </head>
   <body>
     <Header title={SITE_TITLE} />
+    <NavBar />
     <div
       class="container w-full flex flex-col sm:flex-row flex-grow overflow-hidden mt-10 mb-20 font-serif text-lsq-black max-w-5xl antialiased prose"
     >
