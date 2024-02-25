@@ -1,17 +1,14 @@
 ---
-title: The first post
-description: checking this works
+title: Welcome to Luna Station Quarterly!
 pubDate: January 1, 2024
 author: Jennifer Lyn Parsons
-excerpt: This is the first post excerpt
+excerpt: If you'd like to keep up with us, please follow us on Patreon. We'll be posting public updates there as we work on restoring the website. It's also a great place to support the work we do and get some behind-the-scenes insights from our Editor-in-Chief!
 heroImage: /images/12-2023/website-homepage-730x480.jpg
 heroAltText: A fifteenth-century noble woman holds the a unicorn in her lap
 postCategory: News
 categorySlug: /news
 ---
 
-Duis dolor mollit Lorem officia dolore nisi. Esse Lorem cillum cupidatat tempor qui consequat proident non. Magna nostrud est aliquip excepteur laborum exercitation magna Lorem nulla aliqua.
+We're in a bit of a transition right now, so our site is a little bare.
 
-Cillum fugiat veniam culpa in ut sit culpa irure laboris nulla. Occaecat mollit nostrud magna et laboris veniam voluptate. Nulla Lorem ex consectetur incididunt aliqua labore est eu pariatur ut nostrud do. Culpa deserunt cupidatat dolor deserunt dolor non ipsum esse nisi laborum. Cupidatat enim dolor laborum ex irure cupidatat aute fugiat irure deserunt Lorem incididunt cillum enim.
-
-Eiusmod ea velit elit deserunt cillum ad labore velit tempor tempor. Irure ipsum pariatur sunt nostrud adipisicing sunt ullamco. Mollit fugiat eiusmod elit dolore exercitation duis proident sint. Est pariatur excepteur nulla elit ea laboris id quis nulla.
+If you'd like to keep up with us, please <a href="https://www.patreon.com/lunastation" class="text-lsq-orange hover:text-lsq-orange-light">follow us on Patreon</a>. We'll be posting public updates there as we work. It's also a great place to support the work we do and get some behind-the-scenes insights from our Editor-in-Chief!
