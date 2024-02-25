@@ -1,13 +1,15 @@
 ---
-
 import NavLink from "./NavLink.astro";
-
 ---
 
 <navbar id="site-navigation" class="main-navigation" role="navigation">
-    <ul class="w-full flex flex-col sm:flex-row justify-center items-center sm:justify-center border-b-navbar border-lsq-gray-light">
-        <NavLink href="/">Home</NavLink>
-        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light " />
-        <NavLink href="/contact-us">Contact Us</NavLink>
-    </ul>
+  <ul
+    class="w-full flex flex-col sm:flex-row justify-center items-center sm:justify-center border-b-navbar border-lsq-gray-light"
+  >
+    <NavLink href="/">Home</NavLink>
+    <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+    <NavLink href="/issues/056">Current Issue</NavLink>
+    <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+    <NavLink href="/contact-us">Contact Us</NavLink>
+  </ul>
 </navbar>
