@@ -9,7 +9,7 @@ import HeroImage from "../components/HeroImage.astro";
 const posts = (await getCollection("blog"))
   .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf())
   .reverse()
-  .slice(0, 2);
+  .slice(0, 3);
 ---
 
 <Page title="Homepage" description={SITE_DESCRIPTION}>
@@ -17,8 +17,10 @@ const posts = (await getCollection("blog"))
     {
       posts.map((post) => (
         <>
-          <div class="mt-10">
-            {post.data.heroImage && <HeroImage imagePath={post.data.heroImage} altText={post.data.heroAltText} />}
+          <div class="mt-10 first:mt-0">
+            {post.data.heroImage && (
+              <HeroImage imagePath={post.data.heroImage} altText={post.data.heroAltText ? post.data.heroAltText : ""} />
+            )}
             <div class="metadata text-center">
               {post.data.postCategory && (
                 <a href={post.data.categorySlug} class="no-underline">
@@ -46,46 +48,4 @@ const posts = (await getCollection("blog"))
       ))
     }
   </div>
-  <div class="mb-10">
-    <h2 class="text-4xl font-normal font-sans mb-5">Looking for our issues?</h2>
-    <p class="mb-2">You can pick up a copy of our issues in digital and gorgeous print!</p>
-
-    <h3 class="text-xl font-normal font-sans mb-1">Our most recent print editions</h3>
-    <ul class="mb-5 list-disc list-inside">
-      <li>
-        <a
-          href="https://www.amazon.com/dp/B08QJCG8VZ?binding=paperback&ref=dbs_m_mng_rwt_sft_tpbk_tkin"
-          class="text-lsq-orange hover:text-lsq-orange-light">Amazon</a
-        >
-      </li>
-    </ul>
-    <h3 class="text-xl font-normal font-sans mb-1">Digital editions</h3>
-    <ul class="mb-5 list-disc list-inside">
-      <li>
-        <a href="https://lunastationpress.gumroad.com/" class="text-lsq-orange hover:text-lsq-orange-light">Gumroad</a>
-      </li>
-      <li>
-        <a
-          href="https://weightlessbooks.com/category/publisher/luna-station-press/"
-          class="text-lsq-orange hover:text-lsq-orange-light">Weightless Books</a
-        >
-      </li>
-    </ul>
-  </div>
-  <div class="mb-10">
-    <h2 class="text-4xl font-normal font-sans mb-5">Want to submit a story?</h2>
-    <p class="mb-2">We're currently closed for submissions. Our next submission period opens on March 15th.</p>
-    <p class="mb-2">
-      You can find our guidelines on <a
-        href="https://submissions.lunastationpress.com/"
-        class="text-lsq-orange hover:text-lsq-orange-light">our submission site</a
-      >.
-    </p>
-  </div>
 </Page>
-
-<!-- <div>
-  <a href={`/blog/${post.slug}/`}>
-    {post.data.heroImage && <img src={post.data.heroImage} alt={post.data.heroAltText} />}
-  </a>
-</div> -->

@@ -16,4 +16,4 @@ if (!images[fullImagePath])
   throw new Error(`"${fullImagePath}" does not exist in glob: "src/assets/hero-images/*.{jpeg,jpg,png,gif}"`);
 ---
 
-<Image src={images[fullImagePath]()} alt={altText} />
+<Image src={images[fullImagePath]()} alt={altText} class="mt-0 w-full" />
