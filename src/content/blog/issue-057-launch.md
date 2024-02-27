@@ -22,7 +22,7 @@ There is a series of posts up on our Patreon (that you can read for free) that o
 </ul>
 
 **But wait!** Before you click those links and get immersed in the worlds crafted by our amazing authors, I bid you pause and enjoy some insights into the artist behind our outstanding cover for this issue, <a href="http://hannahelizabetharts.com">Hannah Elizabeth</a>:
-<img src="https://images.squarespace-cdn.com/content/v1/64b3c95d173c4e52e4acd4f1/7582508e-f67c-479b-8659-9a7d83212832/LiricJo_HannahElizabethBaker_LORES.jpg" style="float:left; width: 50%; margin-right: 20px;" />
+<img src="https://images.squarespace-cdn.com/content/v1/64b3c95d173c4e52e4acd4f1/7582508e-f67c-479b-8659-9a7d83212832/LiricJo_HannahElizabethBaker_LORES.jpg" class="lg:mr-5 lg:float-left lg:w-1/2" />
 
 **Tell us a bit about yourself and what got you on the path to being an illustrator. Was there a defining moment that made you decide to make art your career?**
 
@@ -31,7 +31,7 @@ I was the art kid with a World of Warcraft addiction in high school so when I wa
 **The cover image has got such a creepy vibe and I love that it shows that fighting the monster isn't always brave heroics. What was the inspiration for it?**
 
 I did this piece while I was under Paul's mentorship, so he actually wrote the brief to inspire me. I like stories where the characters are relatable as well. Hiding is what I'd do if faced with a spooky moose, hah.
-<img src="https://images.squarespace-cdn.com/content/v1/64b3c95d173c4e52e4acd4f1/3db6766c-cc60-4230-abc0-c076a2f55508/KettrickenValues07Smol.jpg" style="float:right; width: 50%; margin-left: 20px;" />
+<img src="https://images.squarespace-cdn.com/content/v1/64b3c95d173c4e52e4acd4f1/3db6766c-cc60-4230-abc0-c076a2f55508/KettrickenValues07Smol.jpg" class="lg:ml-5 lg:float-right lg:w-1/2" />
 
 **Who are your favorite women illustrators, past or present?**
 
