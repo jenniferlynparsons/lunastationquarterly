@@ -3,8 +3,6 @@ title: Welcome to Luna Station Quarterly!
 pubDate: January 1, 2024
 author: Jennifer Lyn Parsons
 excerpt: If you'd like to keep up with us, please follow us on Patreon. We'll be posting public updates there as we work on restoring the website. It's also a great place to support the work we do and get some behind-the-scenes insights from our Editor-in-Chief!
-heroImage: /images/12-2023/website-homepage-730x480.jpg
-heroAltText: A fifteenth-century noble woman holds the a unicorn in her lap
 postCategory: News
 categorySlug: /news
 ---
