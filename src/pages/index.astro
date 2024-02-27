@@ -4,10 +4,12 @@ import { SITE_DESCRIPTION } from "../consts";
 import LinkButton from "@components/LinkButton.astro";
 import { getCollection } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
+import HeroImage from "../components/HeroImage.astro";
+
 const posts = (await getCollection("blog"))
   .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf())
-  // .reverse()
-  .slice(0, 1);
+  .reverse()
+  .slice(0, 2);
 ---
 
 <Page title="Homepage" description={SITE_DESCRIPTION}>
@@ -16,6 +18,7 @@ const posts = (await getCollection("blog"))
       posts.map((post) => (
         <>
           <div class="mt-10">
+            {post.data.heroImage && <HeroImage imagePath={post.data.heroImage} altText={post.data.heroAltText} />}
             <div class="metadata text-center">
               {post.data.postCategory && (
                 <a href={post.data.categorySlug} class="no-underline">
