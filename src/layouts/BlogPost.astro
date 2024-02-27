@@ -9,9 +9,9 @@ type Props = CollectionEntry<"blog">["data"];
 const { title, heroImage, heroAltText, pubDate, author, authorSlug, postCategory, categorySlug } = Astro.props;
 ---
 
-<PageContainer>
+<PageContainer sidebarVisible>
   <div>
-    {heroImage && <HeroImage imagePath={heroImage} altText={heroAltText} />}
+    {heroImage && <HeroImage imagePath={heroImage} altText={heroAltText ? heroAltText : ""} />}
   </div>
   <div>
     <h1 class="font-sans antialiased font-normal mb-0">{title}</h1>
