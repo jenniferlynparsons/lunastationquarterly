@@ -11,6 +11,8 @@ export default {
 			'navlink': '2px',
 			'subfooter': '4px',
 			'footer' : '8px',
+			'definition-list': '1px',
+			'note': '6px',
 		},
 		colors: {
 			'lsq-green': '#b6ac31',
