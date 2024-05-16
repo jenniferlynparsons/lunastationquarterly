@@ -53,6 +53,8 @@ const authors = defineCollection({
 		authorMastodon: z.string().optional().nullable(),
 		authorBluesky: z.string().optional().nullable(),
 		authorInstagram: z.string().optional().nullable(),
+		authorAmazon: z.string().optional().nullable(),
+		authorLinkedIn: z.string().optional().nullable(),
 	}),
 });
 
