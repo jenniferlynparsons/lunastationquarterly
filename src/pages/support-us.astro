@@ -1,0 +1,53 @@
+---
+import Page from "../layouts/Page.astro";
+import LinkButton from "../components/LinkButton.astro";
+---
+
+<Page title="Support Us" description="Support Us">
+  <main>
+    <h1 class="text-4xl font-sans">Support Us</h1>
+    <div class="mt-3 mb-6 border-b-subfooter border-lsq-orange w-24"></div>
+    <p class="mb-2">LSQ is volunteer-run and we depend on your purchases and donations to pay our authors and keep the site running. Help support women writers and consider pitching in!</p>
+    <h2 class="text-xl font-normal font-sans mb-1">Join the community</h2>
+    <!-- TODO: Make Patreon button into a component -->
+    <div class="cb_p6_patreon_site_widget" style="text-align:left !important;">
+        <a
+          rel="nofollow"
+          target="_blank"
+          href="https://patreon.com/lunastation?utm_content=site_sidebar_widget&utm_medium=patron_button_and_widgets_plugin&utm_campaign=93070&utm_term=&utm_source=http://localhost/wordpress-trunk/a-powerful-spread-to-end-the-year/"
+          aria-label="Click to become a patron at Patreon!"
+          ><img src="/images/become_a_patron_button.png" alt="Become a patron at Patreon!" /></a
+        >
+      </div>
+    <p class="mb-2">For as little as a dollar a month, you can become part of this amazing community of writers. We have rewards for those that pledge a little more. 🙂</p>
+    <h2 class="text-xl font-normal font-sans mb-1">You can also:</h2>
+    <!-- TODO: Insert https://buymeacoffee.com/lunastation button here -->
+      <table>
+        <tbody>
+            <tr>
+                <td><LinkButton url="/find-issues" linkText="Purchase" /></td>
+                <td>Take LSQ with you everywhere! Your purchase goes directly towards paying our authors and keeping the site running.</td>
+            </tr>
+            <tr>
+                <td><LinkButton url="https://weightlessbooks.com/luna-station-quarterly-12-month-subscription/" linkText="Subscribe" /></td>
+                <td>Get a yearly subscription via Weightless books is a great way to keep new issues coming every quarter.</td>
+            </tr>
+            <tr>
+                <!-- TODO: Insert PayPal link into LinkButton below -->
+                <td><LinkButton url="" linkText="Donate" /></td>
+                <td>We gladly accept one-time direct donations via PayPal.</td>
+            </tr>
+        </tbody>
+      </table>
+      <h2 class="text-xl font-normal font-sans mb-1">Spread the word!</h2>
+      <p class="mt-2 mb-2">Tweeting, Tumblring, and generally sharing a link to LSQ is a huge help to us in spreading the word about the great stories and awesome women writers we feature here. Following us gets us more reach and exposure, too!</p>
+      <div class="flex flex-row justify-center space-x-5">
+        <LinkButton url="https://www.twitter.com/lunaquarterly" linkText="Twitter"/>
+        <LinkButton url="https://www.facebook.com/lunastnquarterly/" linkText="Facebook" />
+        <LinkButton url="http://lunastationquarterly.tumblr.com/" linkText="Tumblr" />
+        <LinkButton url="https://www.goodreads.com/user/show/5121825-luna-station-quarterly" linkText="Goodreads" />
+        <LinkButton url="https://wandering.shop/@lunastation" linkText="Mastodon" />
+        <LinkButton url="https://bsky.app/profile/lunastation.bsky.social" linkText="Bluesky" />
+      </div>
+    </main>
+</Page>
