@@ -2,12 +2,13 @@
 import ListedOn from "./ListedOn.astro";
 import SocialMediaIcon from "./SocialMediaIcon.astro";
 import SubfooterHeader from "./SubfooterHeader.astro";
+import LinkButton from "../components/LinkButton.astro";
 ---
 
 <div class="container w-full flex flex-col sm:flex-row flex-grow overflow-hidden mt-10 mb-20 font-serif max-w-5xl">
   <div class="w-full h-full flex-grow p-3 overflow-auto">
     <SubfooterHeader title="A bit about us" />
-    <p class="leading-8">
+    <p class="mb-8 leading-8">
       The on-going mission of Luna Station Quarterly is to display the vast and varied talents of female-identified
       speculative fiction writers. We believe that women have a unique and universal voice in fiction and we aim to get
       it heard. 
@@ -86,5 +87,6 @@ import SubfooterHeader from "./SubfooterHeader.astro";
       From ongoing patronage and subscriptions to one time donations and other support options, there are many ways to
       help LSQ keep running for years to come.
     </p>
+    <LinkButton url="/support-us" linkText="Find Out More" />
   </div>
 </div>
