@@ -16,6 +16,8 @@ const {
   authorMastodon,
   authorTumblr,
   authorTwitter,
+  authorAmazon,
+  authorLinkedIn,
 } = Astro.props;
 ---
 
@@ -61,6 +63,16 @@ const {
     {
       authorBluesky && (
         <SocialMediaIcon href={authorBluesky} src="/images/social_media_icons/bluesky_icon.png" alt="Bluesky" />
+      )
+    }
+    {
+      authorAmazon && (
+        <SocialMediaIcon href={authorAmazon} src="/images/social_media_icons/amazon_icon.png" alt="Amazon" />
+      )
+    }
+    {
+      authorLinkedIn && (
+        <SocialMediaIcon href={authorLinkedIn} src="/images/social_media_icons/linkedin_icon.png" alt="LinkedIn" />
       )
     }
   </div>

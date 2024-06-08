@@ -1,0 +1,11 @@
+---
+authorName: 
+authorWebsite: 
+authorTwitter: 
+authorFacebook: 
+authorGoodreads: 
+authorTumblr: 
+authorMastodon: 
+authorBluesky: 
+authorInstagram: 
+---

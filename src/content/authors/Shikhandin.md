@@ -1,0 +1,13 @@
+---
+authorName: Shikhandin
+authorWebsite: 
+authorTwitter: https://twitter.com/Shikhandintweet 
+authorFacebook: https://www.facebook.com/AuthorShikhandin/ 
+authorGoodreads: 
+authorTumblr: 
+authorMastodon: 
+authorBluesky: 
+authorInstagram: https://www.instagram.com/writershikhandin/
+authorAmazon: https://www.amazon.com/author/shikhandin
+---
+Shikhandin is the pen name of an Indian writer. Her books include “The Woman on the Red Oxide Floor” (Red River Story, India), “After Grief – Poems” (Red River, India), “Impetuous Women” (Penguin-Random House India), "Immoderate Men" (Speaking Tiger), and "Vibhuti Cat" (Duckbill-Penguin-Random House India). Prior to that, a novel and a short story collection were published. Shikhandin is a two times Pushcart nominee – Aeolian Harp 2019 (USA) and Cha: An Asian Literary Journal 2011 (Hong Kong). She was nominated for a Best of the Net – Yellow Arrow Publishing 2023 (USA). She was a runner up in the George Floyd Short Story Contest 2020 (UK). A winner in the Children First Contest curated by Duckbill in association with Parag an initiative of Tata Trust in 2017. First prize winner in the Brilliant Flash Fiction Contest 2019 (USA). Runner up in the Erbacce Poetry Prize 2018 (UK).  Winner 35th Moon Prize (Writing in a Woman's Voice: USA). First Runner up in The DNA-OoP Short Story Contest 2016 (India). Second Prize winner in the India Currents Katha Short Story Contest 2016 (USA). First Prize winner in the Anam Cara Short Fiction Competition 2012 (Ireland). She was in the long list for the Bridport Poetry Prize 2006 (UK). A finalist in the Aesthetica Poetry Contest 2010 (UK). Shikhandin’s sci-fi story – Communal – was published simultaneously in two anthologies, ‘A Dying Planet’ from Flametree Press and ‘Avatar’ from Future Fiction in January 2020. Her speculative and satirical short story – “Ruddy Apes and Cannibals” - was one of the most read works at ‘After Dinner Conversation,’ a journal for stories that provoke questions, and is now part of their anthology available from Amazon. Her other fantastika/speculative prose and poetry have been published in Reckoning, Sybil’s Garage, Silver Blade, Enchanted Conversation, Grandpa’s Deep Space Diner, etc. Shikhandin’s literary prose and poetry have been widely published in India and abroad in online and print journals and anthologies. She lives in Chennai with her husband and Lady Highbury, their Shepsky.

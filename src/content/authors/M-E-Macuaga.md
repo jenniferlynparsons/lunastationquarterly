@@ -1,0 +1,5 @@
+---
+authorName: M.E. Macuaga
+authorInstagram: https://www.instagram.com/memi_writes/
+---
+Born and raised in Tokyo, M.E. Macuaga is a Japanese-Bolivian storyteller whose father read her Asimov and Bradbury at bedtime while her mother translated Walter de la Mare’s fairy tales, dooming her to a love of speculative fiction for life. With a BA in Creative Writing from Stanford University and an MFA from USC’s School of Cinema-Television, M.E. has been published by entities as diverse as Marvel Comics, the Yukinomachi Fantastic Stories Collection, Superpresent, and The Seventh Wave; she was a finalist in the NYC Midnight 2023 Flash Fiction and 2022 Short Screenplay Competitions, and is currently short-listed for a Fractured Lit Anthology Prize. The recipient of multiple writing fellowships and scholarships, M.E. is honored to be supported by Hedgebrook, Jentel Arts, Storyknife, International Thriller Writers, Sisters in Crime, and the Vermont Studio Center. She currently lives in California with her husband, two sons, and their cats Mimi and Potato.

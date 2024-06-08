@@ -1,0 +1,12 @@
+---
+title: 
+description: 
+pubDate: 
+heroImage: 
+heroAltText: 
+excerpt: 
+author: 
+authorSlug: 
+postCategory: 
+categorySlug: 
+---

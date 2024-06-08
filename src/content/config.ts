@@ -22,7 +22,6 @@ const issues = defineCollection({
 	// Type-check frontmatter using a schema
 	schema: z.object({
 		title: z.string(),
-		description: z.string().optional(),
 		// Transform string to Date object
 		pubDate: z.coerce.date(),
 		currentIssue: z.boolean(),
@@ -33,7 +32,6 @@ const issues = defineCollection({
 		artistLink: z.string().optional(),
 		stories: z.array(z.string()),
 		authors: z.array(z.string()),
-		authorSlugs: z.array(z.string()).optional(),
 		amazonLink: z.string().optional(),
 		gumroadLink: z.string().optional(),
 		weightlessLink: z.string().optional(),
@@ -55,6 +53,8 @@ const authors = defineCollection({
 		authorMastodon: z.string().optional().nullable(),
 		authorBluesky: z.string().optional().nullable(),
 		authorInstagram: z.string().optional().nullable(),
+		authorAmazon: z.string().optional().nullable(),
+		authorLinkedIn: z.string().optional().nullable(),
 	}),
 });
 
