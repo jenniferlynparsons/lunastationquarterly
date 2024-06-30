@@ -13,7 +13,7 @@ const fullImagePath = `/src/assets/cover-images/${imagePath}`;
 const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/cover-images/*.{jpeg,jpg,png,gif}");
 console.log(images);
 if (!images[fullImagePath])
-  throw new Error(`"${fullImagePath}" does not exist in glob: "src/assets/cover-images/*.{jpeg,jpg,png,gif}"`);
+  throw new Error(`"${fullImagePath}" does not exist in glob: "/src/assets/cover-images/*.{jpeg,jpg,png,gif}"`);
 ---
 
 <Image src={images[fullImagePath]()} alt={altText} />
