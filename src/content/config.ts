@@ -37,6 +37,7 @@ const issues = defineCollection({
 		weightlessLink: z.string().optional(),
 		koboLink: z.string().optional(),
 		kindleLink: z.string().optional(),
+		payhipLink: z.string().optional(),
 	}),
 });
 
