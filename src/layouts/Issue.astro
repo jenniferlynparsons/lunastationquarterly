@@ -18,6 +18,7 @@ const {
   koboLink,
   coverImage,
   amazonLink,
+  payhipLink,
   artistLink,
   artistName,
   coverTitle,
@@ -41,6 +42,11 @@ const authorsList = authors.map((author) => {
         <p class="mt-4 mb-0">
           Buy a digital copy direct from us: <span class="text-xs">(Includes EPUB, MOBI &amp; PDF, DRM-free!)</span>
         </p>
+        {
+          payhipLink && (
+            <LinkButton url={payhipLink} linkText="Payhip" />
+          )
+        } 
         <LinkButton url={gumroadLink} linkText="Gumroad" />
 
         <p class="mt-4 mb-0">Or buy digital from our retailers:</p>
