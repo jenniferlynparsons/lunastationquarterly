@@ -3,23 +3,29 @@ import Page from "../../layouts/Page.astro";
 import { SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
+import CoverImage from "../../components/CoverImage.astro";
+import PageHeader from "../../components/PageHeader.astro";
 
-const issues = (await getCollection("issues")).sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
+import LinkButton from "../../components/LinkButton.astro";
+
+const issues = (await getCollection("issues")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Page title="Issues" description={SITE_DESCRIPTION}>
-  <ul>
+  <PageHeader title="Issue Archives" />
+  <div class="container w-full flex flex-col sm:flex-row overflow-hidden mb-20 max-w-5xl">
     {
       issues.map((issue) => (
-        <li>
+        <div class="mr-10">
           <a href={`/issues/${issue.slug}/`}>
-            <h4 class="title">{issue.data.title}</h4>
+            <CoverImage imagePath={issue.data.coverImage ?? ""} altText={`Cover of ${issue.data.title}`} />
+          </a>
+            <LinkButton url={`/issues/${issue.slug}/`} linkText={issue.data.title} />
             <p class="date">
               <FormattedDate date={issue.data.pubDate} />
             </p>
-          </a>
-        </li>
+          
+        </div>
       ))
     }
-  </ul>
 </Page>
