@@ -10,6 +10,7 @@ type Props = CollectionEntry<"issues">["data"];
 const {
   title,
   pubDate,
+  volumeNumber,
   stories,
   authors,
   gumroadLink,
@@ -22,6 +23,8 @@ const {
   artistLink,
   artistName,
   coverTitle,
+  isbn10,
+  isbn13,
 } = Astro.props;
 
 const authorsList = authors.map((author) => {
@@ -31,11 +34,13 @@ const authorsList = authors.map((author) => {
 ---
 
 <PageContainer>
-  <PageHeader title={title} pubDate={pubDate} />
+  <PageHeader title={title} pubDate={pubDate} volumeNumber={volumeNumber}/>
   <div class="container w-full flex flex-col sm:flex-row overflow-hidden mb-20 max-w-5xl">
     <div class="w-full h-full p-3 max-w-80">
       <CoverImage imagePath={coverImage ?? ""} altText={`Cover of ${title}`} />
       <div>
+        <p class="mt-0 mb-0"><span class="font-bold">ISBN-10:</span> {isbn10}</p>
+        <p class="mt-0 mb-0"><span class="font-bold">ISBN-13:</span> {isbn13}</p>
         <p class="mt-4 mb-0">Choose a gorgeous print edition:</p>
         <LinkButton url={amazonLink} linkText="Amazon" />
 

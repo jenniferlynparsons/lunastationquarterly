@@ -26,6 +26,7 @@ const issues = defineCollection({
 		pubDate: z.coerce.date(),
 		currentIssue: z.boolean(),
 		issueNumber: z.string(),
+		volumeNumber: z.string(),
 		coverImage: z.string().optional(),
 		coverTitle: z.string().optional(),
 		artistName: z.string().optional(),
@@ -37,7 +38,10 @@ const issues = defineCollection({
 		weightlessLink: z.string().optional(),
 		koboLink: z.string().optional(),
 		kindleLink: z.string().optional(),
+    isbn10: z.string().optional(),
+    isbn13: z.string().optional(),
 		payhipLink: z.string().optional(),
+
 	}),
 });
 

@@ -1,7 +1,7 @@
 ---
 import FormattedDate from "../components/FormattedDate.astro";
 
-const { title, pubDate } = Astro.props;
+const { title, pubDate, volumeNumber } = Astro.props;
 ---
 
 <div>
@@ -10,9 +10,13 @@ const { title, pubDate } = Astro.props;
     pubDate && (
       <p>
         <FormattedDate date={pubDate} />
+        {volumeNumber && (
+    <span> | Year {volumeNumber}</span>
+  )}
       </p>
     )
   }
+  
 </div>
 
 <style>
