@@ -1,25 +1,29 @@
 ---
-title: Issue 057
-pubDate: 'March 1, 2024'
+title: Issue 05
+pubDate: June 1, 2024
 currentIssue: true
-issueNumber: '057'
+issueNumber: '058'
+volumeNumber: '15' 
+isbn10: '1949077519'
+isbn13: '978-1949077513'
 
-coverImage: 056cover-300.jpg
+coverImage: 058cover-300.jpg
 coverTitle: 
 
-artistName: 
+artistName:  
 artistLink: 
 
 stories: 
-- ""
+- 
 
 authors: 
 - 
 
 # Store links
-amazonLink: https://www.amazon.com/dp/1949077462
-gumroadLink: https://lunastationpress.gumroad.com/l/lsq-056
-weightlessLink: http://weightlessbooks.com/format/luna-station-quarterly-issue-56
-koboLink: https://www.kobo.com/us/en/ebook/luna-station-quarterly-issue-056
-kindleLink: https://www.amazon.com/dp/B0CP8F54MX
+amazonLink: https://www.amazon.com/dp/
+gumroadLink: https://lunastationpress.gumroad.com/l/lsq-0
+weightlessLink: http://weightlessbooks.com/format/luna-station-quarterly-issue-
+koboLink: https://www.kobo.com/us/en/ebook/luna-station-quarterly-issue-0
+kindleLink: https://www.amazon.com/dp/
+payhipLink: https://payhip.com/
 ---

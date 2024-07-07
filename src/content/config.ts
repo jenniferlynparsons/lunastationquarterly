@@ -26,6 +26,7 @@ const issues = defineCollection({
 		pubDate: z.coerce.date(),
 		currentIssue: z.boolean(),
 		issueNumber: z.string(),
+		volumeNumber: z.string(),
 		coverImage: z.string().optional(),
 		coverTitle: z.string().optional(),
 		artistName: z.string().optional(),

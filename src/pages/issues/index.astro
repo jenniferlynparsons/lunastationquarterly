@@ -22,7 +22,7 @@ const issues = (await getCollection("issues")).sort((a, b) => b.data.pubDate.val
           </a>
             <LinkButton url={`/issues/${issue.slug}/`} linkText={issue.data.title} />
             <p class="date">
-              <FormattedDate date={issue.data.pubDate} />
+              <FormattedDate date={issue.data.pubDate} /> | Year {issue.data.volumeNumber}
             </p>
           
         </div>
