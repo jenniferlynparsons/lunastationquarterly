@@ -1,11 +1,11 @@
 ---
 authorName: 
 authorWebsite: 
-authorTwitter: 
+authorTwitter: https://www.twitter.com/
 authorFacebook: 
 authorGoodreads: 
 authorTumblr: 
 authorMastodon: 
 authorBluesky: 
-authorInstagram: 
+authorInstagram: https://www.instagram.com/
 ---
