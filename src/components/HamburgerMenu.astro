@@ -1,0 +1,27 @@
+---
+
+---
+
+<nav aria-label="Main menu" class="flex justify-center border-b-navbar border-lsq-gray-light" role="navigation">
+  <button aria-controls="main-menu" aria-expanded="true" class="block cursor-pointer hover:text-lsq-orange m-4 sm:hidden" id="hamburger-menu">
+    <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-full">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+    Menu
+  </button>
+</nav>
+
+<script>
+  const hamburgerMenu = document.getElementById("hamburger-menu");
+  const navbar = document.getElementById("site-navigation");
+  if (hamburgerMenu && navbar) {
+    hamburgerMenu.addEventListener("click", () => {
+      navbar.classList.toggle("hidden");
+    });
+    [hamburgerMenu, navbar].forEach((el) => {
+      el.addEventListener("keyup", (e) => {
+        if (e.key === "Escape") navbar.classList.add("hidden");
+      });
+    });
+  }
+</script>
