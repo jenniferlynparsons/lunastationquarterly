@@ -13,19 +13,20 @@ const issues = (await getCollection("issues")).sort((a, b) => b.data.pubDate.val
 
 <Page title="Issues" description={SITE_DESCRIPTION}>
   <PageHeader title="Issue Archives" />
-  <div class="container w-full flex flex-col sm:flex-row overflow-hidden mb-20 max-w-5xl">
+  <div class="container mb-20 grid grid-cols-4 gap-8 text-center">
     {
       issues.map((issue) => (
-        <div class="mr-10">
+        <div class="w-full">
           <a href={`/issues/${issue.slug}/`}>
             <CoverImage imagePath={issue.data.coverImage ?? ""} altText={`Cover of ${issue.data.title}`} />
           </a>
-            <LinkButton url={`/issues/${issue.slug}/`} linkText={issue.data.title} />
-            <p class="date">
-              <FormattedDate date={issue.data.pubDate} /> | Year {issue.data.volumeNumber}
-            </p>
-          
+          <LinkButton url={`/issues/${issue.slug}/`} linkText={issue.data.title} />
+          <p class="mb-0">
+            <FormattedDate date={issue.data.pubDate} />
+          </p>
+          <p class="mt-0">Year {issue.data.volumeNumber}</p>
         </div>
       ))
     }
+  </div>
 </Page>
