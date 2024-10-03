@@ -1,6 +1,6 @@
 ---
 title: Submissions are now open
-pubDate: 'September 15, 2024'
+pubDate: "September 15, 2024"
 author: Jennifer Lyn Parsons
 heroImage: open-subs-0924.jpg
 heroAltText: "Large grey metal gears"
@@ -8,13 +8,14 @@ excerpt: We're open for submissions with a new submission manager and an update 
 postCategory: News
 categorySlug: /news
 ---
+
 Hello, friends!
 
 I hope September is treating you well. I've got some updates about the inner workings of LSQ for you today.
 
 <h3>First and foremost</h3>
 
-The new issue is out! Go to the site and check it out. 
+The new issue is out! Go to the site and check it out.
 
 <h3>Submission manager changeover</h3>
 
@@ -28,7 +29,7 @@ For many years we have accepted and published reprints. However, over the last y
 
 <h3>Ready to submit your story?</h3>
 
-If you'd like to submit something, we'd love to read it. You can <a href-"https://duotrope.com/duosuma/submit/luna-station-quarterly-ehWK6">get started now</a>.
+If you'd like to submit something, we'd love to read it. You can <a href="https://duotrope.com/duosuma/submit/luna-station-quarterly-ehWK6">get started now</a>.
 
 <h3>Wrap up</h3>
 
