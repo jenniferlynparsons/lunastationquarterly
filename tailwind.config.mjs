@@ -18,6 +18,7 @@ export default {
 			'lsq-green': '#b6ac31',
 			'lsq-orange': '#d24719',
 			'lsq-orange-light': '#DC6D48',
+			'lsq-alert': '#ffe6de',
 			'lsq-white': '#ffffff',
 			'lsq-black': '#222222',
 			'lsq-gray-light': '#eeeeee',

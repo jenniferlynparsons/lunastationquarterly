@@ -8,17 +8,10 @@ import LinkButton from "../components/LinkButton.astro";
 <div class="container w-full flex flex-col sm:flex-row flex-grow overflow-hidden mt-10 mb-20 font-serif max-w-5xl">
   <div class="w-full h-full flex-grow p-3 overflow-auto">
     <SubfooterHeader title="A bit about us" />
-    <p class="mb-8 leading-8">
-      The on-going mission of Luna Station Quarterly is to display the vast and varied talents of female-identified
-      speculative fiction writers. We believe that women have a unique and universal voice in fiction and we aim to get
-      it heard. 
-    </p>
+    <p class="mb-8 leading-8">The on-going mission of Luna Station Quarterly is to display the vast and varied talents of female-identified speculative fiction writers. We believe that women have a unique and universal voice in fiction and we aim to get it heard.</p>
+    <p class="leading-8">We hope you enjoy the stories within. Please be sure to check out our author's profiles to learn where you can read more of their work.</p>
     <p class="leading-8">
-      We hope you enjoy the stories within. Please be sure to check out our author's profiles to learn where
-      you can read more of their work.
-    </p>
-    <p class="leading-8">
-      If you have any thoughts you&apos;d like to share about the site, please feel free to use the 
+      If you have any thoughts you&apos;d like to share about the site, please feel free to use the
       <a class="text-lsq-orange hover:text-lsq-orange-light underline" href="/contact-us">contact form</a>
       and let us know what you think!
     </p>
@@ -27,66 +20,30 @@ import LinkButton from "../components/LinkButton.astro";
   <div class="w-full h-full flex-grow p-3 overflow-auto">
     <SubfooterHeader title="Follow us" />
     <div class="container w-full flex flex-row pb-20">
-      <SocialMediaIcon
-        href="https://www.twitter.com/lunaquarterly"
-        src="/images/social_media_icons/twitter_icon.png"
-        alt="Twitter"
-      />
-      <SocialMediaIcon
-        href="https://www.facebook.com/lunastnquarterly/"
-        src="/images/social_media_icons/facebook_icon.png"
-        alt="Facebook"
-      />
-      <SocialMediaIcon
-        href="http://lunastationquarterly.tumblr.com/"
-        src="/images/social_media_icons/tumblr_icon.png"
-        alt="Tumblr"
-      />
-      <SocialMediaIcon
-        href="https://www.goodreads.com/user/show/5121825-luna-station-quarterly"
-        src="/images/social_media_icons/goodreads_icon.png"
-        alt="Goodreads"
-      />
-      <SocialMediaIcon
-        href="https://wandering.shop/@lunastation"
-        src="/images/social_media_icons/mastodon_icon.png"
-        alt="Mastodon"
-      />
-      <SocialMediaIcon
-        href="https://bsky.app/profile/lunastation.bsky.social"
-        src="/images/social_media_icons/bluesky_icon.png"
-        alt="Bluesky"
-      />
+      <SocialMediaIcon href="https://www.twitter.com/lunaquarterly" src="/images/social_media_icons/twitter_icon.png" alt="Twitter" />
+      <SocialMediaIcon href="https://www.facebook.com/lunastnquarterly/" src="/images/social_media_icons/facebook_icon.png" alt="Facebook" />
+      <SocialMediaIcon href="http://lunastationquarterly.tumblr.com/" src="/images/social_media_icons/tumblr_icon.png" alt="Tumblr" />
+      <SocialMediaIcon href="https://www.goodreads.com/user/show/5121825-luna-station-quarterly" src="/images/social_media_icons/goodreads_icon.png" alt="Goodreads" />
+      <SocialMediaIcon href="https://wandering.shop/@lunastation" src="/images/social_media_icons/mastodon_icon.png" alt="Mastodon" />
+      <SocialMediaIcon href="https://bsky.app/profile/lunastation.bsky.social" src="/images/social_media_icons/bluesky_icon.png" alt="Bluesky" />
     </div>
 
     <SubfooterHeader title="We're proud to be listed on:" />
-    <ListedOn
-      href="https://duotrope.com"
-      src="https://duotrope.com/images/linkto/tracksubs_30x150.png"
-      alt="Duotrope"
-    />
-    <ListedOn
-      href="https://thegrinder.diabolicalplots.com/"
-      src="http://www.diabolicalplots.com/wp-content/uploads/2013/04/ListedOnTheGrinder.png"
-      alt="Submission Grinder"
-    />
-    <ListedOn
-      href="https://www.chillsubs.com"
-      src="https://www.chillsubs.com/_next/image?url=%2Fstickers%2Fprofessional-2.png&w=1920&q=75"
-      alt="chillsubs.com"
-    />
+    <ListedOn href="https://duotrope.com" src="https://duotrope.com/images/linkto/tracksubs_30x150.png" alt="Duotrope" />
+    <ListedOn href="https://thegrinder.diabolicalplots.com/" src="http://www.diabolicalplots.com/wp-content/uploads/2013/04/ListedOnTheGrinder.png" alt="Submission Grinder" />
+    <ListedOn href="https://www.chillsubs.com" src="https://www.chillsubs.com/_next/image?url=%2Fstickers%2Fprofessional-2.png&w=1920&q=75" alt="chillsubs.com" />
   </div>
 
   <div class="w-full h-full flex-grow p-3 overflow-auto">
     <SubfooterHeader title="Support LSQ!" />
-    <p class="mb-8 leading-8">
-      LSQ is volunteer-run and we depend on your purchases and donations to pay our authors and keep the site running.
-      Help support women works and consider pitching in.
-    </p>
-    <p class="leading-8">
-      From ongoing patronage and subscriptions to one time donations and other support options, there are many ways to
-      help LSQ keep running for years to come.
-    </p>
+    <p class="mb-8 leading-8">LSQ is volunteer-run and we depend on your purchases and donations to pay our authors and keep the site running. Help support women works and consider pitching in.</p>
+    <p class="leading-8">From ongoing patronage and subscriptions to one time donations and other support options, there are many ways to help LSQ keep running for years to come.</p>
     <LinkButton url="/support-us" linkText="Find Out More" />
+    <div class="p-4 bg-lsq-alert border-l-4 mt-10" role="alert">
+      <h2 class="mt-0 font-sans text-lg capitalize text-lsq-orange">Our AI policy</h2>
+      <div>
+        <p>Our policy on the use of generative AI is very simple: we do not and will never accept work that was written using AI.</p>
+      </div>
+    </div>
   </div>
 </div>

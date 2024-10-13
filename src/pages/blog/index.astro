@@ -3,24 +3,47 @@ import Page from "../../layouts/Page.astro";
 import { SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
+import HeroImage from "../../components/HeroImage.astro";
+import LinkButton from "@components/LinkButton.astro";
 
-const posts = (await getCollection("blog")).sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
+const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Page title="Blog" description={SITE_DESCRIPTION}>
   <ul>
     {
       posts.map((post) => (
-        <li>
-          <a href={`/blog/${post.slug}/`}>
-            <img width={720} height={360} src={post.data.heroImage} alt="" />
-            <h4 class="title">{post.data.title}</h4>
-            <p class="date">
-              <FormattedDate date={post.data.pubDate} />
+        <>
+          <div class="mt-10 first:mt-0">
+            {/* {post.data.heroImage && (
+              <HeroImage imagePath={post.data.heroImage} altText={post.data.heroAltText ? post.data.heroAltText : ""} />
+            )} */}
+            <div class="metadata text-center">
+              {post.data.postCategory && (
+                <a href={post.data.categorySlug} class="no-underline">
+                  <span class="uppercase text-xs">{post.data.postCategory}</span>
+                </a>
+              )}
+              <a href={`/blog/${post.slug}/`} class="no-underline">
+                <h2 class="text-2xl font-normal font-sans mb-1 mt-0">{post.data.title}</h2>
+              </a>
+              <p class="uppercase text-xs">
+                <a href={`/authors/${post.data.authorSlug}`} class="no-underline">
+                  {post.data.author}
+                </a>
+                <span> | </span>
+                <FormattedDate date={post.data.pubDate} />
+              </p>
+            </div>
+            <p>
+              {post.data.excerpt}{" "}
+              <span>
+                <a href={`/blog/${post.slug}/`}>Continue reading...</a>
+              </span>
             </p>
-            <p>{post.data.excerpt}</p>
-          </a>
-        </li>
+          </div>
+          <hr />
+        </>
       ))
     }
   </ul>
