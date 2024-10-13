@@ -13,14 +13,20 @@ const posts = (await getCollection("blog"))
 ---
 
 <Page title="Homepage" description={SITE_DESCRIPTION}>
+  <div class="p-4 bg-lsq-alert border-l-4 mb-10" role="alert">
+    <h1 class="font-sans text-lg capitalize text-lsq-orange">Changes big and small</h1>
+    <div class="text-sm">
+      <p>We&apos;re in the process of rebuilding the website. Some content may be missing. Thank you for your patience!</p>
+      <p>You may have noticed a few changes to the site, particularly around how we&apos;re now presenting our issues. There are some really, really good reasons for that.</p>
+      <p>The very short answer is: We want to protect our people so they can write the stories they want to tell and treat their work with the respect they deserve. Touch grass not algorithms. Be authentic to who you are. Be human. <a href="/changes">Learn more...</a></p>
+    </div>
+  </div>
   <div class="mb-10">
     {
       posts.map((post) => (
         <>
           <div class="mt-10 first:mt-0">
-            {post.data.heroImage && (
-              <HeroImage imagePath={post.data.heroImage} altText={post.data.heroAltText ? post.data.heroAltText : ""} />
-            )}
+            {post.data.heroImage && <HeroImage imagePath={post.data.heroImage} altText={post.data.heroAltText ? post.data.heroAltText : ""} />}
             <div class="metadata text-center">
               {post.data.postCategory && (
                 <a href={post.data.categorySlug} class="no-underline">
@@ -47,5 +53,9 @@ const posts = (await getCollection("blog"))
         </>
       ))
     }
+  </div>
+
+  <div class="text-right">
+    <a href={`/blog/`}>View more entries >></a>
   </div>
 </Page>
