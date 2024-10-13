@@ -18,7 +18,14 @@ const issues = (await getCollection("issues")).sort((a, b) => b.data.pubDate.val
       issues.map((issue) => (
         <div class="w-full">
           <a href={`/issues/${issue.slug}/`}>
-            <CoverImage imagePath={issue.data.coverImage ?? ""} altText={`Cover of ${issue.data.title}`} />
+            {issue.data.coverImage ? (
+              <CoverImage imagePath={issue.data.coverImage} altText={`Cover of ${issue.data.title}`} />
+            ) : (
+              <img
+                src="https://placehold.co/300x466?text=Cover+Coming+Soon"
+                alt={`Placeholder cover for ${issue.data.title}`}
+              />
+            )}
           </a>
           <LinkButton url={`/issues/${issue.slug}/`} linkText={issue.data.title} />
           <p class="mb-0">
