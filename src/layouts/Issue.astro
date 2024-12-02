@@ -16,19 +16,42 @@ const {
   volumeNumber,
   stories,
   authors,
-  gumroadLink,
-  weightlessLink,
-  kindleLink,
-  koboLink,
   coverImage,
-  amazonLink,
-  payhipLink,
   artistLink,
   artistName,
   coverTitle,
   isbn10,
   isbn13,
+  gumroadLink,
+  weightlessLink,
+  kindleLink,
+  koboLink,
+  amazonLink,
+  payhipLink,
 } = Astro.props;
+
+const metaData = [
+  title,
+  pubDate,
+  volumeNumber,
+  stories,
+  authors,
+  coverImage,
+  artistLink,
+  artistName,
+  coverTitle,
+  isbn10,
+  isbn13,
+]
+
+const purchaseLinks = [
+  amazonLink,
+  payhipLink,
+  gumroadLink,
+  weightlessLink,
+  koboLink,
+  kindleLink,
+]
 
 const authorsList = authors
   ? authors.map((author) => {
@@ -46,6 +69,14 @@ const authorsList = authors
       <div>
         <p class="mt-0 mb-0"><span class="font-bold">ISBN-10:</span> {isbn10}</p>
         <p class="mt-0 mb-0"><span class="font-bold">ISBN-13:</span> {isbn13}</p>
+
+        {purchaseLinks.some(link => !link) && (
+          <div class="not-prose p-4 bg-lsq-alert border-l-4 text-lsq-orange mt-4" role="alert">
+            <h1 class="font-sans text-lg capitalize">Coming soon</h1>
+            <p>Some purchase options aren't quite ready yet.</p>
+          </div>
+        )}
+
         <p class="mt-4 mb-0">Choose a gorgeous print edition:</p>
         {amazonLink ? <LinkButton url={amazonLink} linkText="Amazon" /> : <InactiveLinkButton linkText="Amazon" />}
 
@@ -62,7 +93,7 @@ const authorsList = authors
       </div>
     </div>
     <div class="w-full h-full p-3 lg:ml-4">
-      {Object.values(Astro.props).some(value => value === null || value === "") && (
+      {metaData.some(value => value === null || value === "") && (
         <UnderConstruction type="issue"/>
       )}
       <slot />
