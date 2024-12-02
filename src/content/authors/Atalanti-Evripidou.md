@@ -1,5 +1,5 @@
 ---
-author: Atalanti Evripidou
+authorName: Atalanti Evripidou
 authorFacebook: https://www.facebook.com/atalanti.evripidou/
 authorInstagram: https://www.instagram.com/psychologist_reads/?hl=en
 ---

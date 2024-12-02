@@ -1,5 +1,5 @@
 ---
-author: Asa West
+authorName: Asa West
 authorWebsite: http://www.asawestauthor.com
 authorBluesky: https://bsky.app/profile/theredtailwitch.bsky.social
 authorInstagram: https://www.instagram.com/theredtailwitch/

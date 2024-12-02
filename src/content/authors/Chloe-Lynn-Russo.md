@@ -1,5 +1,5 @@
 ---
-author: Chloe-Lynn Russo
+authorName: Chloe-Lynn Russo
 authorTwitter: https://x.com/chloelynnwriter
 authorFacebook: https://www.facebook.com/chloe.russo.92/
 authorInstagram: https://www.instagram.com/cmajorsproductions/
