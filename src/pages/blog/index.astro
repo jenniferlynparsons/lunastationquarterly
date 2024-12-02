@@ -3,8 +3,8 @@ import Page from "../../layouts/Page.astro";
 import { SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
-import HeroImage from "../../components/HeroImage.astro";
-import LinkButton from "@components/LinkButton.astro";
+// import HeroImage from "../../components/HeroImage.astro";
+// import LinkButton from "@components/LinkButton.astro";
 
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
