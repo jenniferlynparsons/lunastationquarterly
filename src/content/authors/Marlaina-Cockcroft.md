@@ -1,5 +1,5 @@
 ---
-author: Marlaina Cockcroft
+authorName: Marlaina Cockcroft
 authorWebsite: https://marlainacockcroft.com
 authorInstagram: https://www.instagram.com/marlainawrites
 ---

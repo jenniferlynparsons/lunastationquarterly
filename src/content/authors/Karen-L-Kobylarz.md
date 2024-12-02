@@ -1,5 +1,5 @@
 ---
-author: Karen L. Kobylarz
+authorName: Karen L. Kobylarz
 authorWebsite: https://karenlkobylarz.wordpress.com/
 authorTwitter: https://x.com/LavaKobylarz
 authorFacebook: https://www.facebook.com/karen.kobylarz.3

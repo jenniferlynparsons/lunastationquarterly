@@ -1,5 +1,5 @@
 ---
-author: Hannah Birss
+authorName: Hannah Birss
 authorWebsite: www.hannahbirsswriters.carrd.co
 authorInstagram: https://www.instagram.com/hannahbirsswrites
 ---

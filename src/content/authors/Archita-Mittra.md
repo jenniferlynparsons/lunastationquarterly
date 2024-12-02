@@ -1,5 +1,5 @@
 ---
-author: Archita Mittra
+authorName: Archita Mittra
 authorWebsite: https://architamittra.wordpress.com/
 authorTwitter: https://twitter.com/architamittra
 authorInstagram: https://www.instagram.com/architamittra/

@@ -1,5 +1,5 @@
 ---
-author: Diana Deverell
+authorName: Diana Deverell
 authorWebsite: https://www.dianadeverell.com/
 authorFacebook: https://www.facebook.com/diana.deverell1/
 ---
