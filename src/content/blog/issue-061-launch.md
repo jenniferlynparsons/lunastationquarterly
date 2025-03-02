@@ -23,3 +23,27 @@ So whether you're a longtime reader or this is your first issue, welcome. We may
 This isn't just another issue - it's a milestone. It's a statement. It's a reminder that even in dark times, we keep creating, connecting, and illuminating each other's worlds.
 
 And speaking of illuminating worlds - I'm thrilled to introduce you to Sonia Matas, the brilliant artist behind our stunning cover. Her dreamlike vision perfectly captures the spirit of this special issue. Read on to learn more about her creative process and inspirations in our interview below.
+<img src="https://static.wixstatic.com/media/a0c330_c98a2c40f4714c4f85b4847666b84691~mv2.png/v1/fit/w_718,h_650,q_90,enc_avif,quality_auto/a0c330_c98a2c40f4714c4f85b4847666b84691~mv2.png" class="lg:mr-5 lg:float-left lg:w-1/2" />
+
+**Tell us a bit about yourself and what got you on the path to being an illustrator. Was there a defining moment that made you decide to make art your career?**
+
+My name is Sonia Matas and I've been drawing my whole life, as most of the artists, but I tried not to make it my job until I discarded all the remaining job options. This was because I was terrified that I would end up hating the drawing if it didn't turn out well. Luckily, it was the best decision and I love my job (maybe too much, sometimes I forgot to rest or sleep!)
+
+**The cover image has got such an ethereal quality to it. What was the inspiration for it?**
+Art started being my full-time job back in 2013, and ever since, I've been drawing my muse every year as a tradition, to remember for a moment the happiness of dedicating myself entirely to my biggest passion: art.
+
+**Who are your favorite women illustrators, past or present?**
+My biggest inspiration is Marta Nael, Loish, Jenny Frison and Jelena Kevic.
+
+**What is your dream project? If there were no restrictions on time or money what would you create?**
+My biggest dream is having a little art studio full of big windows and an orchard. I would come back to painting big oils without any rush and hire someone to design and produce the artbooks that I write and draw.
+
+**Because LSQ is all about stories I have to ask, what are some of your favorite tales?**
+I love everything written by Alejandra Pizarnik, she inspires me with each word.
+<img src="https://static.wixstatic.com/media/a0c330_c37e9ec0d6fe472790a6725ebfd1e84a~mv2.png/v1/fit/w_708,h_650,q_90,enc_avif,quality_auto/a0c330_c37e9ec0d6fe472790a6725ebfd1e84a~mv2.png" class="lg:ml-5 lg:float-right lg:w-1/2" /> 
+
+**What's something you're working on now that you're really excited about?**
+I'm currently doing a more American style because I'm getting a lot of alternative covers in the USA, and I'm discovering a world of collectors where traditional and original art is highly valued. This month I've been invited to an event by Zenescope Publishing in Austin and I'm very excited to be able to cross borders with my work!
+
+**Where can people learn more about you and your work?**
+I post all the important things on the social networks, all of them linked on my website <a href="https://www.soniamatas.com">www.soniamatas.com</a>
