@@ -55,7 +55,7 @@ const purchaseLinks = [
 
 const authorsList = authors
   ? authors.map((author) => {
-      const authorSlug = author.replace(/[.\s]+/g, "-").toLowerCase();
+      const authorSlug = author.replace(/[']+/g, "").replace(/[.\s]+/g, "-").toLowerCase();
       return { author, authorSlug };
     })
   : [];
