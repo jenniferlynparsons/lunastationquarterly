@@ -7,17 +7,42 @@ import LinkButton from "../components/LinkButton.astro";
 <Page title="Submissions" description="Submissions">
   <PageTitle title="Submissions" />
 
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">We're currently closed for submissions. Our submission period opens on March 15th.</h3>
+  <h3 class="font-normal font-sans text-2xl m-0 pb-4">We're currently open for submissions. Our submission period closes on May 15th.</h3>
   <div class="p-4 bg-lsq-alert border-l-4 mb-10" role="alert">
     <h2 class="mt-0 font-sans text-lg capitalize text-lsq-orange">Our AI policy</h2>
     <div>
-      <p>Our policy on the use of generative AI is very simple: we do not and will never accept work that was written using AI.</p>
+      <p>Our policy on the use of generative AI is very simple: we do not and will never accept work that was written by AI.</p>
     </div>
   </div>
-  <h2 class="font-normal font-sans text-3xl m-0 pb-7">Criteria</h2>
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">Criteria</h2>
   <p>Luna Station Quarterly publishes speculative fiction written by women-identified authors. We think women write awesome characters and really cool stories and we want to show it to the world. We will consider stories submitted by any woman writer, regardless of experience or writing resume. If you consider yourself on the woman end of the gender spectrum in any significant capacity, you&apos;re welcome here!</p>
 
-  <h2 class="font-normal font-sans text-3xl m-0 pb-7">Basic guidelines</h2>
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">Submission Form Requirements</h2>
+  <p>Before submitting, please prepare:</p>
+  <ul class="marker:text-lsq-black">
+    <li>
+      Your story as a Word (.doc or .docx) or RTF file
+      <ul>
+        <li>Use standard manuscript format: double-spaced, 12pt Times New Roman or similar font, 1-inch margins</li>
+      </ul>
+    </li>
+    <li>
+      Cover letter containing:
+      <ul>
+        <li>Your name and story title</li>
+        <li>Word count</li>
+        <li>Any previous publishing credits (optional - we welcome new writers!)</li>
+      </ul>
+    </li>
+    <li>Bio (up to 100 words, written in third-person)</li>
+  </ul>
+
+  <h4 class="font-normal font-sans text-2xl m-0 pb-4">Notes:</h4>
+  <ul class="marker:text-lsq-black">
+    <li>Your bio should be professional but can include personal interests and previous publications</li>
+  </ul>
+
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">Basic guidelines</h2>
   <dl>
     <div class="inline-flex w-full m-0 border-t-definition-list border-lsq-gray-light">
       <dt class="font-normal font-sans m-0 p-0 my-2 w-1/3">Word limit</dt>
@@ -53,11 +78,29 @@ import LinkButton from "../components/LinkButton.astro";
     </div>
   </dl>
 
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">Important details</h3>
-  <p>Our response time varies, but you will hear from us no later then one month before publication.</p>
+  <h2 class="font-normal font-sans text-2xl m-0 pb-4">Rights &amp; Publication Process</h2>
+  <ul class="marker:text-lsq-black">
+    <li>Copyright remains yours at all times</li>
+    <li>
+      If accepted, you'll receive an email with:
+      <ul class="marker:text-lsq-black">
+        <li>Your planned publication date</li>
+        <li>Our publication terms</li>
+        <li>Your reply to this email constitutes acceptance of these terms</li>
+      </ul>
+    </li>
+    <li>
+      We request:
+      <ul class="marker:text-lsq-black">
+        <li>First electronic and print rights</li>
+        <li>3 months exclusivity after publication</li>
+      </ul>
+    </li>
+    <li>You can request removal of your story from our archive at any time via our <a href="/contact-us">contact form</a></li>
+  </ul>
 
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">Deadlines</h3>
-  <p>Luna Station Quarterly is published once a quarter, and has the following schedule:</p>
+  <h2 class="font-normal font-sans text-2xl m-0 pb-4">Publication Schedule</h2>
+  <p>Luna Station Quarterly is published quarterly with the following schedule:</p>
   <dl>
     <div class="inline-flex w-full m-0 mb-4 border-t-definition-list border-lsq-gray-light">
       <dt class="font-normal font-sans text-lg m-0 mt-2 p-0 w-1/3">Publication Date</dt>
@@ -85,11 +128,14 @@ import LinkButton from "../components/LinkButton.astro";
     </div>
   </dl>
 
+  <h3 class="font-normal font-sans text-2xl m-0 pb-4">Response Time</h3>
+  <p>Our response time varies, but you will hear from us no later than one month before publication.</p>
+
   <hr />
 
-  <h2 class="font-normal font-sans text-3xl m-0 pb-7">Full guidelines</h2>
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">What We're Looking For</h2>
 
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">Stuff we want:</h3>
+  <h3 class="font-normal font-sans text-2xl m-0 pb-4">We want:</h3>
   <ul class="marker:text-lsq-black">
     <li>Stories about hope</li>
     <li>Fantasy</li>
@@ -103,7 +149,7 @@ import LinkButton from "../components/LinkButton.astro";
     <li>Well written stories with strong characters</li>
   </ul>
 
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">Stuff we don&apos;t want:</h3>
+  <h3 class="font-normal font-sans text-2xl m-0 pb-4">We don&apos;t want:</h3>
   <ul class="marker:text-lsq-black">
     <li>
       Extreme gore or sexual content, in particular <strong>no explicit rape or sexual assault</strong>. (everything in moderation)
@@ -117,35 +163,17 @@ import LinkButton from "../components/LinkButton.astro";
     <li>Plagiarism</li>
   </ul>
 
-  <p>
-    <strong>A further note about sex and violence in submissions.</strong>
-    <br />
-    Science fiction has a long-standing tradition of pushing boundaries and asking difficult questions. It is meant to challenge us and ask us to look at ourselves and how we treat each other and the world around us. That said, LSQ is centered on uplift and so any story that contains explicit sexual situations or violence especially toward women will be considered more carefully than other stories and the content must be justified within the story&apos;s plot.
-  </p>
+  <h4 class="font-normal font-sans text-2xl m-0 pb-4">Content Note</h4>
+  <p>Science fiction has a long-standing tradition of pushing boundaries and asking difficult questions. It is meant to challenge us and ask us to look at ourselves and how we treat each other and the world around us. That said, LSQ is centered on uplift and so any story that contains explicit sexual situations or violence especially toward women will be considered more carefully than other stories and the content must be justified within the story's plot.</p>
 
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">Reprints & Multiple submissions</h3>
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">Questions</h2>
+  <ul>
+    <li>Please review these guidelines thoroughly before contacting us</li>
+    <li>For any questions, use our <a href="/contact-us">contact form</a></li>
+    <li>Response time may vary based on our volunteer staff's availability</li>
+  </ul>
 
-  <p>Reprints are not considered.</p>
-
-  <p>Multiple submissions are not considered. One submission per period.</p>
-
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">Response Time</h3>
-  <p>Our response time varies, but you will hear from us no later then one month before publication.</p>
-  <p>
-    Feel free to contact us (via the
-    <a href="/contact-us">contact form</a>) if you have any issues with our submission manager.
-  </p>
-  <p>If your story is accepted, you will receive an email that includes the publication date and a short, simple contract. This must be returned before publication or your story will not be published.</p>
-
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">Rights</h3>
-  <p>
-    <strong>Copyright remains yours at all times.</strong>
-    We simply ask for the right to publish your story in the ebook (epub, mobi, pdf) and print editions of Luna Station Quarterly, as well as permission to reprint it in any future "best of" anthologies. If you want us to remove a story from our archive, please write us via the
-    <a href="/contact-us">contact form</a>
-    to let us know.
-  </p>
-
-  <h3 class="font-normal font-sans text-2xl m-0 pb-7">Final Notes</h3>
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">Final Notes</h2>
   <p>
     We reserve the right to change the submission process between issues. If you have any futher questions regarding this process, please use the
     <a href="/contact-us">contact form</a>
