@@ -67,8 +67,8 @@ const authorsList = authors
     <div class="w-full h-full p-3 max-w-80">
       {coverImage && <CoverImage imagePath={coverImage} altText={`Cover of ${title}`} />}
       <div>
-        <p class="mt-0 mb-0"><span class="font-bold">ISBN-10:</span> {isbn10}</p>
-        <p class="mt-0 mb-0"><span class="font-bold">ISBN-13:</span> {isbn13}</p>
+        {isbn10 && <p class="mt-0 mb-0"><span class="font-bold">ISBN-10:</span> {isbn10}</p>}
+        {isbn13 && <p class="mt-0 mb-0"><span class="font-bold">ISBN-13:</span> {isbn13}</p>}
 
         {purchaseLinks.some(link => !link) && (
           <div class="not-prose p-4 bg-lsq-alert border-l-4 text-lsq-orange mt-4" role="alert">
