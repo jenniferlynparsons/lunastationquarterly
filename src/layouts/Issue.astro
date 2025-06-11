@@ -72,8 +72,8 @@ const authorsList = authors
 
         {purchaseLinks.some(link => !link) && (
           <div class="not-prose p-4 bg-lsq-alert border-l-4 text-lsq-orange mt-4" role="alert">
-            <h1 class="font-sans text-lg capitalize">Coming soon</h1>
-            <p>Some purchase options aren't quite ready yet.</p>
+            <h1 class="font-sans text-lg capitalize">More options coming soon</h1>
+            <p class="text-sm">Some purchase options aren't quite ready yet.</p>
           </div>
         )}
 
@@ -93,9 +93,6 @@ const authorsList = authors
       </div>
     </div>
     <div class="w-full h-full p-3 lg:ml-4">
-      {metaData.some(value => value === null || value === "") && (
-        <UnderConstruction type="issue"/>
-      )}
       <slot />
       {
         coverTitle && artistName && artistLink && (

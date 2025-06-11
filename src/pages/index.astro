@@ -13,13 +13,6 @@ const posts = (await getCollection("blog"))
 ---
 
 <Page title="Homepage" description={SITE_DESCRIPTION}>
-  <div class="p-4 bg-lsq-gray-light border-l-4 mb-10" role="alert">
-    <h1 class="font-sans text-lg capitalize">Changes big and small</h1>
-    <div class="text-sm">
-      <p>We're rebuilding our website with purpose! Some content may be missing from our archives.</p>
-      <p>Our goal: Protect our authors and respect their work. Touch grass, not algorithms. Be human. <a href="/changes">Learn more...</a></p>
-    </div>
-  </div>
   <div class="mb-10">
     {
       posts.map((post) => (
