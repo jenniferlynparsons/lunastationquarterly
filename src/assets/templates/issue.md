@@ -1,7 +1,7 @@
 ---
 title: Issue 05
 pubDate: June 1, 2025
-currentIssue: true
+currentIssue: false
 issueNumber: '058'
 volumeNumber: '16' 
 isbn10: '1949077519'
