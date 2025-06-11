@@ -2,7 +2,6 @@
 import type { CollectionEntry } from "astro:content";
 import PageContainer from "../components/PageContainer.astro";
 import PageHeader from "../components/PageHeader.astro";
-import UnderConstruction from "@components/UnderConstruction.astro";
 
 import LinkButton from "../components/LinkButton.astro";
 import CoverImage from "../components/CoverImage.astro";
@@ -30,19 +29,6 @@ const {
   payhipLink,
 } = Astro.props;
 
-const metaData = [
-  title,
-  pubDate,
-  volumeNumber,
-  stories,
-  authors,
-  coverImage,
-  artistLink,
-  artistName,
-  coverTitle,
-  isbn10,
-  isbn13,
-]
 
 const purchaseLinks = [
   amazonLink,
