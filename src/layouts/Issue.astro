@@ -2,10 +2,11 @@
 import type { CollectionEntry } from "astro:content";
 import PageContainer from "../components/PageContainer.astro";
 import PageHeader from "../components/PageHeader.astro";
-import UnderConstruction from "@components/UnderConstruction.astro";
 
 import LinkButton from "../components/LinkButton.astro";
 import CoverImage from "../components/CoverImage.astro";
+import InactiveLinkButton from "@components/InactiveLinkButton.astro"; 
+
 type Props = CollectionEntry<"issues">["data"];
 
 const {
@@ -14,23 +15,33 @@ const {
   volumeNumber,
   stories,
   authors,
-  gumroadLink,
-  weightlessLink,
-  kindleLink,
-  koboLink,
   coverImage,
-  amazonLink,
-  payhipLink,
   artistLink,
   artistName,
   coverTitle,
   isbn10,
   isbn13,
+  gumroadLink,
+  weightlessLink,
+  kindleLink,
+  koboLink,
+  amazonLink,
+  payhipLink,
 } = Astro.props;
+
+
+const purchaseLinks = [
+  amazonLink,
+  payhipLink,
+  gumroadLink,
+  weightlessLink,
+  koboLink,
+  kindleLink,
+]
 
 const authorsList = authors
   ? authors.map((author) => {
-      const authorSlug = author.replace(/[.\s]+/g, "-").toLowerCase();
+      const authorSlug = author.replace(/[']+/g, "").replace(/[.\s]+/g, "-").toLowerCase();
       return { author, authorSlug };
     })
   : [];
@@ -42,27 +53,32 @@ const authorsList = authors
     <div class="w-full h-full p-3 max-w-80">
       {coverImage && <CoverImage imagePath={coverImage} altText={`Cover of ${title}`} />}
       <div>
-        <p class="mt-0 mb-0"><span class="font-bold">ISBN-10:</span> {isbn10}</p>
-        <p class="mt-0 mb-0"><span class="font-bold">ISBN-13:</span> {isbn13}</p>
+        {isbn10 && <p class="mt-0 mb-0"><span class="font-bold">ISBN-10:</span> {isbn10}</p>}
+        {isbn13 && <p class="mt-0 mb-0"><span class="font-bold">ISBN-13:</span> {isbn13}</p>}
+
+        {purchaseLinks.some(link => !link) && (
+          <div class="not-prose p-4 bg-lsq-alert border-l-4 text-lsq-orange mt-4" role="alert">
+            <h1 class="font-sans text-lg capitalize">More options coming soon</h1>
+            <p class="text-sm">Some purchase options aren't quite ready yet.</p>
+          </div>
+        )}
+
         <p class="mt-4 mb-0">Choose a gorgeous print edition:</p>
-        {amazonLink && <LinkButton url={amazonLink} linkText="Amazon" />}
+        {amazonLink ? <LinkButton url={amazonLink} linkText="Amazon" /> : <InactiveLinkButton linkText="Amazon" />}
 
         <p class="mt-4 mb-0">
           Buy a digital copy direct from us: <span class="text-xs">(Includes EPUB, MOBI &amp; PDF, DRM-free!)</span>
         </p>
-        {payhipLink && <LinkButton url={payhipLink} linkText="Payhip" />}
-        {gumroadLink && <LinkButton url={gumroadLink} linkText="Gumroad" />}
+        {payhipLink ? <LinkButton url={payhipLink} linkText="Payhip" /> : <InactiveLinkButton linkText="Payhip" />}
+        {gumroadLink ? <LinkButton url={gumroadLink} linkText="Gumroad" /> : <InactiveLinkButton linkText="Gumroad" />}
 
         <p class="mt-4 mb-0">Or buy digital from our retailers:</p>
-        {weightlessLink && <LinkButton url={weightlessLink} linkText="Weightless Books" />}
-        {koboLink && <LinkButton url={koboLink} linkText="Kobo" />}
-        {kindleLink && <LinkButton url={kindleLink} linkText="Kindle" />}
+        {weightlessLink ? <LinkButton url={weightlessLink} linkText="Weightless Books" /> : <InactiveLinkButton linkText="Weightless Books" />}
+        {koboLink ? <LinkButton url={koboLink} linkText="Kobo" /> : <InactiveLinkButton linkText="Kobo" />}
+        {kindleLink ? <LinkButton url={kindleLink} linkText="Kindle" /> : <InactiveLinkButton linkText="Kindle" />}
       </div>
     </div>
     <div class="w-full h-full p-3 lg:ml-4">
-      {Object.values(Astro.props).some(value => value === null || value === "") && (
-        <UnderConstruction type="issue"/>
-      )}
       <slot />
       {
         coverTitle && artistName && artistLink && (

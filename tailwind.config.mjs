@@ -22,6 +22,7 @@ export default {
 			'lsq-white': '#ffffff',
 			'lsq-black': '#222222',
 			'lsq-gray-light': '#eeeeee',
+			'lsq-gray-dark': '#999999',
 		  },
 		fontFamily: {
 			sans: ['Oswald', 'sans-serif'],

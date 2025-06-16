@@ -1,0 +1,6 @@
+---
+authorName: Corey Davis
+authorTwitter: https://x.com/dame_coreydench
+authorInstagram: https://www.instagram.com/cupofcorey/
+---
+Corey Davis is a writer, occasional editor, and graduate student from Mississippi. She began her professional literary career at the age of fourteen, when she published her first novel with a now-defunct press. In 2015, as a junior in high school, her short story “The Cleanup Crew” won the esteemed Eudora Welty Creative Writing Award. She went on to attend the University of Mississippi, where she became an alumnus of the Sally McDonnell Barksdale Honors College and, in 2020, earned her bachelor’s degree in English with an emphasis in creative writing. During her undergraduate, she was also the recipient of numerous creative writing awards within the UM English department. She spent the next four years working as a freelance editor and publishing her short fiction and poetry in various literary venues, including Chaotic Merge, Fish Barrel Review, and more. Currently, she is a first-year graduate student pursuing a master’s degree in library and information science through Louisiana State University, and she continues to write speculative fiction rooted in the American Deep South and, most importantly, in her home state. She is also always working on her next novel—literally, always!

@@ -1,0 +1,5 @@
+---
+authorName: Nat Kishchuk
+authorInstagram: https://www.instagram.com/nat.kish
+---
+Nat Kishchuk began creative writing in 2019, after too many years of writing something completely else. To date, her work, mainly speculative fiction but also non-fiction and literary fiction, has appeared in Femspec, Pulp Literature, Andromeda Spaceways, Yolk Literary Journal, Crow and Cross Keys, The Rumen, and carte blanche. She completed a certificate in creative writing from Concordia in 2022 and the 2024 Sage Hill Emerging Prose Writers workshop in 2024. Nat’s secret ambition is to write speculative fiction novels that advance social and environmental justice by shifting perceptions of unacceptable current and historical realities. Originally from Saskatoon in what is now called Saskatchewan (Treaty 6, traditional land of the nêhiyawak, Anihšināpēk, Dakota, Lakota, and Nakoda, and homeland of the Métis/Michif Nation), she is grateful to live and work in Tiohtià:ke (Montréal: unceded territory of the Kanien’kehá:ka).

@@ -1,13 +1,13 @@
 ---
 title: Issue 05
-pubDate: June 1, 2024
-currentIssue: true
+pubDate: June 1, 2025
+currentIssue: false
 issueNumber: '058'
-volumeNumber: '15' 
+volumeNumber: '16' 
 isbn10: '1949077519'
 isbn13: '978-1949077513'
 
-coverImage: 058cover-300.jpg
+coverImage: 058cover.jpg
 coverTitle: 
 
 artistName:  

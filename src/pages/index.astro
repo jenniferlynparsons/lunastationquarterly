@@ -13,14 +13,6 @@ const posts = (await getCollection("blog"))
 ---
 
 <Page title="Homepage" description={SITE_DESCRIPTION}>
-  <div class="p-4 bg-lsq-alert border-l-4 mb-10" role="alert">
-    <h1 class="font-sans text-lg capitalize text-lsq-orange">Changes big and small</h1>
-    <div class="text-sm">
-      <p>We&apos;re in the process of rebuilding the website. Some content may be missing. Thank you for your patience!</p>
-      <p>You may have noticed a few changes to the site, particularly around how we&apos;re now presenting our issues. There are some really, really good reasons for that.</p>
-      <p>The very short answer is: We want to protect our people so they can write the stories they want to tell and treat their work with the respect they deserve. Touch grass not algorithms. Be authentic to who you are. Be human. <a href="/changes">Learn more...</a></p>
-    </div>
-  </div>
   <div class="mb-10">
     {
       posts.map((post) => (
@@ -37,10 +29,20 @@ const posts = (await getCollection("blog"))
                 <h2 class="text-4xl font-normal font-sans mb-1 mt-0">{post.data.title}</h2>
               </a>
               <p class="uppercase text-xs">
-                <a href={`/authors/${post.data.authorSlug}`} class="no-underline">
-                  {post.data.author}
-                </a>
-                <span> | </span>
+                {post.data.author && (
+                  <>
+                    <a
+                      href={`/authors/${post.data.author
+                        .replace(/[']+/g, "")
+                        .replace(/[.\s]+/g, "-")
+                        .toLowerCase()}`}
+                      class="no-underline"
+                    >
+                      {post.data.author}
+                    </a>
+                    <span> | </span>
+                  </>
+                )}
                 <FormattedDate date={post.data.pubDate} />
               </p>
             </div>
