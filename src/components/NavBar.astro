@@ -1,23 +1,31 @@
 ---
-import NavLink from "./NavLink.astro";
 import HamburgerMenu from "./HamburgerMenu.astro";
+import NavLink from "./NavLink.astro";
+import { Astronav, MenuItems } from "astro-navbar";
 ---
 
-<HamburgerMenu />
-<navbar id="site-navigation" class="main-navigation sm:block hidden" role="navigation">
-  <ul class="w-full flex flex-col sm:flex-row justify-center items-center sm:justify-center border-b-navbar border-lsq-gray-light">
-    <NavLink href="/">Home</NavLink>
-    <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
-    <NavLink href="/issues/062">Current Issue</NavLink>
-    <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
-    <NavLink href="/issues">Back Issues</NavLink>
-    <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
-    <NavLink href="/submissions">Submissions</NavLink>
-    <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
-    <NavLink href="/changes">Recent Changes</NavLink>
-    <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
-    <NavLink href="/support-us">Support Us</NavLink>
-    <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
-    <NavLink href="/contact-us">Contact Us</NavLink>
-  </ul>
-</navbar>
+<Astronav>
+  <HamburgerMenu />
+  <navbar id="site-navigation" class="main-navigation sm:block hidden" role="navigation">
+    <MenuItems>
+      <ul class="w-full flex flex-col sm:flex-row justify-center items-center sm:justify-center border-b-navbar border-lsq-gray-light">
+        <NavLink href="/">Home</NavLink>
+        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+        <NavLink href="/issues/062">Current Issue</NavLink>
+        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+        <NavLink href="/issues">Back Issues</NavLink>
+        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+        <NavLink href="/issues/anthology">Anthology</NavLink>
+        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+        <NavLink href="/submissions">Submissions</NavLink>
+        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+        <NavLink href="/changes">Recent Changes</NavLink>
+        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+        <NavLink href="/support-us">Support Us</NavLink>
+        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+        <NavLink href="/contact-us">Contact Us</NavLink>
+        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+      </ul>
+    </MenuItems>
+  </navbar>
+</Astronav>
