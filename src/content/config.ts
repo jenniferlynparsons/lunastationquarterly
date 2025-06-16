@@ -11,7 +11,6 @@ const blog = defineCollection({
 		heroAltText: z.string().optional(),
 		excerpt: z.string().optional(),
 		author: z.string().optional(), 
-		authorSlug: z.string().optional(),
 		postCategory: z.string().optional(),
 		categorySlug: z.string().optional(),
 	}),

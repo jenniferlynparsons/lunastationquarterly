@@ -6,7 +6,6 @@ heroImage:
 heroAltText: 
 excerpt: 
 author: 
-authorSlug: 
 postCategory: 
 categorySlug: 
 ---

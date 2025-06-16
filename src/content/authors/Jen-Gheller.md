@@ -1,0 +1,334 @@
+---
+authorBluesky: ''
+authorFacebook: ''
+authorGoodreads: https://goodreads.com/digimaui
+authorInstagram: ''
+authorMastodon: ''
+authorName: Jen Gheller
+authorTumblr: ''
+authorTwitter: https://www.twitter.com/Jen_Gheller
+authorWebsite: ''
+posts:
+- Appreciate a Dragon Day
+- The Baddest of Them All
+- I Was a Teenage Twihard
+- To Wakanda and Beyond
+- 'Issue 036 Author Interview: Regina Higgins and "Wise Woman"'
+- 'Weekly Wrap-Up: Week of December 24, 2018'
+- Bubble Bubble Pasta Pot
+- 'Weekly Wrap-Up: Week of November 18, 2018'
+- 'Issue 035 Author Interview: Beth Goder and "Pulling Secrets from Stones"'
+- 'Issue 035 Author Interview: Alessia Galatini and "Winter Flowers"'
+- 'Issue 035 Author Interview: K. Bannerman and "The Mothership"'
+- Lois Lowry's "Gossamer"
+- 'Issue 035 Author Interview: Erin Wagner and "To Walk for the First Time"'
+- 'Weekly Wrap-Up: Week of October 29, 2018'
+- The Magic of "What If?"
+- The Power of a Great Outfit... Description
+- 'Review: The Language of Thorns'
+- Just Fiction
+- 'Issue 035 Author Interview: Richaundra Thursday and "Space Witch"'
+- 'Issue 035 Author Interview: Alyssa Striplin and "Necromance"'
+- 'Issue 035 Author Interview: Izzy Varju and "Dragon Fruit"'
+- Season of the Teen Witch
+- 'Issue 035 Author Interview: Jennifer Lee Rossman and "One Last Ride . . ."'
+- Rebooting Your Childhood
+- 'Issue 034 Author Interview: Kim Rei and "Campfire Song"'
+- 'Issue 034 Author Interview: Laine Perez and "Time and Space"'
+- 'Issue 034 Author Interview: C.L. Spillard and "Frost"'
+- 'Weekly Wrap-Up: Week of July 30, 2018'
+- Boston Teen Author Festival 2018
+- 'Weekly Wrap-Up: Week of July 23, 2018'
+- 'Issue 034 Author Interview: Jenny Wong and "The Volcano Keeper"'
+- Contraception in YA
+- 'Issue 037 Author Interview: Amanda McGee and "At Love''s Heart"'
+- 'Issue 036 Author Interview: Maya Dworsky and "Bog Witch"'
+- 'Issue 036 Author Interview: Laura Duerr and "Transcripts of Tapes. . . "'
+- 'Issue 036 Author Interview: Mariah Montoya and "Death''s Armchair by the Sea"'
+- 'Issue 037 Author Interview: Ella Syverson and "Call To Mind"'
+- 'Issue 036 Author Interview: Sarah McGill and "Down Among the Fireweed"'
+- 'Issue 036 Author Interview: Stuti Telidevara and "The Last Evening at Prosperity"'
+- The Life of an Adventurer
+- 'Review: The Wicked King'
+- YA or NA?
+- Top 5 Reasons to Love She-Ra
+- 'Issue 037 Author Interview: Britani Baker and "Sirens"'
+- 'Issue 037 Author Interview: Kathryn McMahon and "Green is for Wishes and Apples"'
+- 'Issue 037 Author Interview: Mab Morris and "Laughter in the Graveyard"'
+- The Ladies of "One Piece"
+- 'Issue 038 Author Interview: Elizabeth Guilt and "Violent Silence"'
+- Non-required Summer Reading
+- 'Issue 038 Author Interview: Alexandra Grunberg and "Blue Lips and Frozen Lashes"'
+- Celebrating Kyoto Animation
+- 'Issue 038 author interview: Jennifer Lee Rossman and "Pocketful of Souls"'
+- 'Issue 038 Author Interview: Johanna Levene and "Grork Dentist"'
+- 'Issue 038 Author Interview: Celia Neri and "Vincent Coriolis, Father of the Nation"'
+- 'Issue 038 Author Interview: T.D. Walker and "Into Nothingness"'
+- 'Weekly Wrap-Up: Week of August 26, 2019'
+- '"Seat belts, everyone!"'
+- Your New Best Friend Spinel
+- 'Issue 039 Author Interview: Lucy Stone and "The Gold Chain"'
+- Akko Kagari, Underrated Witch
+- 'Issue 039 Author Interview: Koji A. Dae and "The Artist"'
+- 'Issue 039 Author Interview: Jerica Taylor and "The Pet Owner''s Guide . . . "'
+- 'Issue 039 author interview: Katherine Kendig and "The Wiser Move, The Better Choice"'
+- 'Issue 039 Author Interview: Erin McNelis and "The Fire Wife"'
+- Underhyped Princesses vs "Frozen 2"
+- 'Weekly Wrap-Up: Week of November 25, 2019'
+- Undercooked Brownie Points or Real Representation?
+- 'Weekly Wrap-Up: Week of Dec. 23, 2019'
+- Hope Through Art with "Carole & Tuesday"
+- 'Issue 040 Author Interview: Rebecca Bennett and "The Remains of Prophecy"'
+- Keep Your Amatonormativity Away From My Dragon
+- 'Issue 040 Author Interview: Sarah McGill and "Bone to Bleeding Bone"'
+- 'Issue 040 Author Interview: Nicole  Lungerhausen and "Tell Me Something Good"'
+- 'Issue 040 Author Interview: Emilee Martell and "Nora''s Potion Jar"'
+- 'Issue 040 Author Interview: Laura J. Campbell and "Slipping Through the Stars"'
+- 'Issue 040 Author Interview: Allyson Shaw and "Gald"'
+- Women's History in Animation
+- 'Weekly Wrap-Up: Week of March 2, 2020'
+- 'LSQ Monthly News Flash: March 2020'
+- 'Weekly Wrap-Up: Week of March 9, 2020'
+- 'Weekly Wrap-Up: Week of March 16, 2020'
+- 'Issue 041 Author Interview: Lindsey Duncan and "Sweet Little Lies"'
+- 'Issue 041 Author Interview: C.L. Holland and "On the Cusp of Darkness"'
+- 'Weekly Wrap-Up: Week of March 23, 2020'
+- 'Issue 041 Author Interview: Genevieve Gornichec and "What the Gods Left Behind"'
+- 'Issue 041 Author Interview: Kel Purcill and "Luminous"'
+- 'Weekly Wrap-Up: Week of March 30, 2020'
+- 'LSQ Monthly News Flash: April 2020'
+- When No One Cares
+- 'Issue 041 Author Interview: Tiffany Meuret and "Mouse, Crow, Cockroach, Valkyrie"'
+- 'Weekly Wrap-Up: Week of April 6, 2020'
+- 'Weekly Wrap-Up: Week of April 13, 2020'
+- 'Issue 041 Author Interview: Nicole Crucial and "The Anatomy of Spines"'
+- 'Weekly Wrap-Up: Week of April 20, 2020'
+- 'Weekly Wrap-Up: Week of April 27, 2020'
+- 'LSQ Monthly News Flash: May 2020'
+- The Disney Spin-off We Deserve
+- 'Weekly Wrap-Up: Week of May 4, 2020'
+- 'Weekly Wrap-Up: Week of May 11, 2020'
+- Who You Gonna Call? The Diviners!
+- Happy birthday, Madeleine L'Engle!
+- 'Weekly Wrap-Up: Week of May 18, 2020'
+- 'Weekly Wrap-Up: Week of May 25, 2020'
+- 'Issue 042 Author Interview: Dianne M. Williams and "Accidental Kaiju"'
+- 'Issue 042 Author Interview: Michèle Laframboise and "Ganymede''s Lamps"'
+- 'Weekly Wrap-Up: Week of June 1, 2020'
+- 'LSQ Monthly News Flash: June 2020'
+- Let Black Characters Be the Lead
+- 'Weekly Wrap-Up: Week of June 8, 2020'
+- 'Law & Authors: An Interview with Jacqui Lipton'
+- 'Issue 042 Author Interview: Jennifer Lee Rossman and "Depth and Meaning"'
+- 'Weekly Wrap-Up: Week of June 15, 2020'
+- The Circus is in Town!
+- 'Weekly Wrap-Up: Week of June 22, 2020'
+- 'Weekly Wrap-Up: Week of June 29, 2020'
+- 'LSQ Monthly News Flash: July 2020'
+- 'Weekly Wrap-Up: Week of July 6, 2020'
+- Issue 042 Release!!! Meet Cover Artist Eleonor Piteira
+- Villains and Otherness in Cartoons
+- 'Weekly Wrap-Up: Week of July 13, 2020'
+- 'Issue 042 Author Interview: EJ Sidle and "Minor Mortalities"'
+- 'Weekly Wrap-Up: Week of July 20, 2020'
+- 'Weekly Wrap-Up: Week of July 27, 2020'
+- 'LSQ Monthly News Flash: August 2020'
+- 'Weekly Wrap-Up: Week of August 3, 2020'
+- Avatar's Underrated MVP
+- 'Weekly Wrap-Up: Week of August 10, 2020'
+- 'Issue 043 Author Interview: Alexandra Grunberg and "The Family Recipe"'
+- 'Weekly Wrap-Up: Week of August 17, 2020'
+- Issue 043 Release!!! Meet Cover Artist Christina Kraus
+- 'Weekly Wrap-Up: Week of August 24, 2020'
+- 'Issue 043 Author Interview: Chelsea Sutton and "The Space Beyond Cubicle Twenty-Nine"'
+- 'Issue 043 Author Interview: Victoria Zelvin and "Dead Katherine"'
+- 'Weekly Wrap-Up: Week of August 31, 2020'
+- 'LSQ Monthly News Flash: September 2020'
+- The Rise of Queer Cartoons
+- 'Issue 043 Author Interview: Victoria V. and "Vó Úrsula’s Magical Shop for Soul-Aches"'
+- 'Weekly Wrap-Up: Week of September 7, 2020'
+- 'Weekly Wrap-Up: Week of September 14, 2020'
+- 'Weekly Wrap-Up: Week of September 21, 2020'
+- 'Weekly Wrap-Up: Week of September 28, 2020'
+- 'LSQ Monthly News Flash: October 2020'
+- 4 Mood-Boosting Must-Watch Fall Shows
+- 'Weekly Wrap-Up: Week of October 5, 2020'
+- 'Weekly Wrap-Up: Week of October 12, 2020'
+- 'Weekly Wrap-Up: Week of October 19, 2020'
+- 'Weekly Wrap-Up: Week of October 26, 2020'
+- 'LSQ Monthly News Flash: November 2020'
+- 'Weekly Wrap-Up: Week of November 2, 2020'
+- Happy Thanksgiving!
+- 'Weekly Wrap-Up: Week of November 9, 2020'
+- 'Characters Who Deserved Better: Ashi from "Samurai Jack"'
+- 'Weekly Wrap-Up: Week of November 16, 2020'
+- 'Weekly Wrap-Up: Week of November 23, 2020'
+- Happy Birthday, Jan Brett!
+- Merry & Bright
+- So Long, 2020
+- Here's to a New Year!
+- 'Issue 044 Author Interview: Rocky Breen and "Skyboss"'
+- 'LSQ Monthly News Flash: December 2020'
+- 'Weekly Wrap-Up: Week of December 7, 2020'
+- Issue 044 Release!!! Meet Cover Artist Jessica Jackson
+- 'Issue 044 Author Interview: Wen-yi Lee and "The Mirror of Longing"'
+- 'Weekly Wrap-Up: Week of December 14, 2020'
+- 'Issue 044 Author Interview: Pamela Love and "Come One! Come All!"'
+- 'Issue 044 Author Interview: Katerini Koraki and "Leonardo''s Children"'
+- 'Weekly Wrap-Up: Week of December 21, 2020'
+- 'Weekly Wrap-Up: Week of December 29, 2020'
+- 'LSQ Monthly News Flash: January 2021'
+- 'Weekly Wrap-Up: Week of January 4, 2021'
+- 'Weekly Wrap-Up: Week of January 11, 2021'
+- 'Weekly Wrap-Up: Week of January 18, 2021'
+- 'Weekly Wrap-Up: Week of January 25, 2020'
+- 'LSQ Monthly News Flash: February 2021'
+- 'Issue 044 Author Interview: Elizabeth Hinckley and "Margins"'
+- 'Weekly Wrap-Up: Week of February 1, 2021'
+- 'Weekly Wrap-Up: Week of February 8, 2021'
+- 'Weekly Wrap-Up: Week of February 15, 2021'
+- Issue 045 Release!!! Meet Cover Artist Natasa Ilincic
+- 'Issue 045 Author Interview: Hannah Whiteoak and "Mars Ascending"'
+- 'Weekly Wrap-Up: Week of February 22, 2021'
+- 'Issue 045 Author Interview: Kristin Hooker and "Inspector 36"'
+- 'Issue 045 Author Interview: Catherine George and "A Test of Trouble"'
+- 'Weekly Wrap-Up: Week of March 1, 2021'
+- 'LSQ Monthly News Flash: March 2021'
+- 'Issue 045 Author Interview: Clare McNamee-Annett and "Maeve in the Picture"'
+- Wolfwalkers!!
+- 'Weekly Wrap-up: Week of March 8, 2021'
+- 'Issue 045 Author Interview: Gabrielle Roselynn Dina and "The Dragon Hunter''s Daughter"'
+- 'Weekly Wrap-Up: Week of March 15, 2021'
+- 'Weekly Wrap-Up: Week of March 22, 2021'
+- LeVar Burton Reads LSQ??
+- 'Weekly Wrap-Up: Week of March 29, 2021'
+- 'LSQ Monthly News Flash: April 2021'
+- 'Weekly Wrap-Up: Week of April 5, 2021'
+- 'Weekly Wrap-Up: Week of April 12, 2021'
+- 'Weekly Wrap-Up: Week of April 19, 2021'
+- 'Weekly Wrap-Up: Week of April 26, 2021'
+- 'LSQ Monthly News Flash: May 2021'
+- 'Weekly Wrap-Up: Week of May 3, 2021'
+- 'Weekly Wrap-Up: Week of May 10, 2021'
+- 'Weekly Wrap-Up: Week of May 17, 2021'
+- 'Weekly Wrap-Up: Week of May 24, 2021'
+- 'Issue 046 Author Interview: Laura Duerr and "Unit Two Does Her Makeup"'
+- Issue 046 Release!!! Meet Cover Artist Janaina Medeiros
+- 'Weekly Wrap-Up: Week of May 31, 2021'
+- 'LSQ Monthly News Flash: June 2021'
+- 'Issue 046 Author Interview: Devon Widmer and "Stones and Bones"'
+- 'Issue 046 Author Interview: Nikoline Kaiser and "A Moral Majority"'
+- 'Weekly Wrap-Up: Week of June 7, 2021'
+- 'Issue 046 Author Interview: Sylvia Heike and "Forestborn"'
+- 'Issue 046 Author Interview: Patrice Rivara and "Vegoia"'
+- 'Issue 046 Author Interview: Alex Grehy and "The Wandering Fae"'
+- 'Weekly Wrap-Up: Week of June 14, 2021'
+- 'Weekly Wrap-Up: Week of June 21, 2021'
+- 'Weekly Wrap-Up: Week of June 28, 2021'
+- 'LSQ Monthly News Flash: July 2021'
+- 'Weekly Wrap-Up: Week of July 5, 2021'
+- 'Review: The Kyoshi Novels'
+- 'Weekly Wrap-Up: Week of July 12, 2021'
+- 'Weekly Wrap-Up: Week of July 19, 2021'
+- 'Weekly Wrap-Up: Week of July 26, 2021'
+- 'LSQ Monthly News Flash: August 2021'
+- 'Weekly Wrap-Up: Week of August 2, 2021'
+- 'Weekly Wrap-Up: Week of August 16, 2021'
+- Issue 047 Release!!! Meet Cover Artist Amagoia Agirre
+- 'Weekly Wrap-Up: Week of August 30, 2021'
+- 'Issue 047 Author Interview: Isabel Lee and "Your Brother''s Touchstone"'
+- 'Issue 047 Author Interview: Rebecca Burton and "No Place Like Home"'
+- 'Issue 047 Author Interview: Anna Martino and "Dashing, Through the Spaceship"'
+- 'LSQ Monthly News Flash: September 2021'
+- 'Weekly Wrap-Up: Week of September 6, 2021'
+- 'Issue 047 Author Interview: Susan E. Rogers and "The Keeper"'
+- Hazel's Theory of Hitting Me in the Feels
+- 'Issue 047 Author Interview: Allison Mulder and "The Backwards Princess of Unusual
+  Parentage"'
+- 'Issue 047 Author Interview: Lisa Short and "Revenant"'
+- 'Weekly Wrap-Up: Week of September 13, 2021'
+- 'Weekly Wrap-Up: Week of September 20, 2021'
+- 'Weekly Wrap-Up: Week of September 27, 2021'
+- 'LSQ Monthly News Flash: October 2021'
+- 'Weekly Wrap-Up: Week of October 4, 2021'
+- 'Weekly Wrap-Up: Week of October 11, 2021'
+- 'Weekly Wrap-Up: Week of October 18, 2021'
+- 'Weekly Wrap-Up: Week of October 25, 2021'
+- 'LSQ Monthly News Flash: November 2021'
+- 'Weekly Wrap-Up: Week of November 1, 2021'
+- 'Review: The Lady and the Highwayman'
+- Happy Thanksgiving!
+- 'Weekly Wrap-Up: Week of November 8, 2021'
+- 'Weekly Wrap-Up: Week of November 15, 2021'
+- Issue 048 Release!!! Meet Cover Artist Jana Heidersdorf
+- 'Weekly Wrap-Up: Week of November 22, 2021'
+- LSQ Loves Birds!
+- 'Weekly Wrap-Up: Week of November 29, 2021'
+- 'LSQ Monthly News Flash: December 2021'
+- 'Issue 048 Author Interview: Jennifer Lyn Parsons and "Blessing"'
+- 'Issue 048 Author Interview: Laney Gaughan and Syrup-Tapping Season'
+- 'Issue 048 Author Interview: Meghan Louise Wagner and "The Groupies (1974)"'
+- 'Weekly Wrap-Up: Week of December 6, 2021'
+- 'Issue 048 Author Interview: Rebecca Burton and "The Prince and the Raven"'
+- 'Re-Review: Edward Scissorhands'
+- 'Weekly Wrap-Up: Week of December 13, 2021'
+- 'Weekly Wrap-Up: Week of December 20, 2021'
+- 'LSQ Monthly News Flash: January 2022'
+- 'Weekly Wrap-Up: Week of January 3, 2022'
+- 'Weekly Wrap-Up: Week of January 10, 2022'
+- 'Weekly Wrap-Up: Week of January 31, 2022'
+- 'LSQ Monthly News Flash: February 2022'
+- 'Weekly Wrap-Up: Week of February 21, 2022'
+- Issue 049 Release!!! Meet Cover Artist Caroline Jamhour
+- 'Issue 049 Author Interview: Lisa Fox and "The Important Things"'
+- 'Issue 049 Author Interview: Sarah Salcedo and "Experiment Ninety-Four"'
+- 'Weekly Wrap-Up: Week of February 28, 2022'
+- 'LSQ Monthly News Flash: March 2022'
+- 'Issue 049 Author Interview: Virginia Mohlere and "Small Offerings for a Small God"'
+- 'Issue 049 Author Interview: Emmie Christie and "The Time Speaker"'
+- 'Issue 049 Author Interview: Glenna Turnbull and "Clouds in her Eyes"'
+- 'Weekly Wrap-Up: Week of March 7, 2022'
+- 'Issue 049 Author Interview: Erin Keating and "Sleeping Giants"'
+- 'Issue 049 Author Interview: Amy Mills Klipstine and "Face"'
+- 'Weekly Wrap-Up: Week of March 14, 2022'
+- 'Issue 049 Author Interview: Clare Diston and "Dinner with Jupiter"'
+- Tickled Pink for Turning Red
+- 'Weekly Wrap-Up: Week of March 28, 2022'
+- 'LSQ Monthly News Flash: April 2022'
+- 'Weekly Wrap-Up: Week of April 4, 2022'
+- 'Weekly Wrap-Up: Week of April 18, 2022'
+- 'Weekly Wrap-Up: Week of April 25, 2022'
+- 'LSQ Monthly News Flash: May 2022'
+- 'Weekly Wrap-Up: Week of May 2, 2022'
+- 'Weekly Wrap-Up: Week of May 16, 2022'
+- Issue 050 Release!!! Meet Cover Artist Theodora Capat
+- 'Weekly Wrap-Up: Week of May 30, 2022'
+- 'Issue 050 Author Interview: Elou Carroll and "Tatterdemalion"'
+- 'Issue 050 Author Interview: Lisa Farrell and "Crowd Demons"'
+- 'LSQ Monthly News Flash: June 2022'
+- Year 13 Themed Issue Reveal!
+- 'Weekly Wrap-Up: Week of June 6, 2022'
+- 'Issue 050 Author Interview: Amelia Brunskill and "The Hunter''s Child"'
+- 'Issue 050 Author Interview: Jenna Grieve and "Osteomancy"'
+- 'Weekly Wrap-Up: Week of June 13, 2022'
+- 'Issue 050 Author Interview: E. Fox and "The Price of Pearls"'
+- 'LSQ Monthly News Flash: July 2022'
+- 'LSQ Monthly News Flash: August 2022'
+- Issue 051 Release!!! Meet Cover Artist Devin Elle Kurtz
+- 'LSQ Monthly News Flash: September 2022'
+- 'Issue 051 Author Interview: Jenna Glover and "Peanut Butter Elegy"'
+- 'Issue 051 Author Interview: Rebecca Burton and "There Is a Cottage by the Woods"'
+- 'Issue 051 Author Interview: CL Glanzing and "Fishbone"'
+- 'Issue 051 Author Interview: Denise Khng and "Felt"'
+- 'Issue 051 Author Interview: Sherry Yuan and "External Processors"'
+- 'Issue 051 Author Interview: Jordan Hirsch and "2122, Barrel-Aged and Biding"'
+- Issue 052 Release!!! Meet Cover Artist Samantha Lee
+- 'Issue 052 Author Interview: Chana Kohl and "The Warrior Tree"'
+- 'Issue 052 Author Interview: Sarah McPherson and "Shadow and Ash"'
+short_bio: Jen is a writer, librarian-in-training, and professional daydreamer living
+  on the Jersey Shore. Her writing gravitates towards magic and faeries in the modern
+  world. She loves the library with all her heart and soul.
+stories: []
+---
+
+Jen is a writer, librarian-in-training, and professional daydreamer living on the Jersey Shore. Her writing gravitates towards magic and faeries in the modern world. She loves the library with all her heart and soul. Working with LSQ is her first venture into the publishing world, and she can't wait to see where it leads.

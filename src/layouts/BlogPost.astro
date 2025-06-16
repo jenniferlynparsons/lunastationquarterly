@@ -6,7 +6,7 @@ import HeroImage from "../components/HeroImage.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, heroImage, heroAltText, pubDate, author, authorSlug, postCategory, categorySlug } = Astro.props;
+const { title, heroImage, heroAltText, pubDate, author, postCategory, categorySlug } = Astro.props;
 ---
 
 <PageContainer sidebarVisible>
@@ -16,7 +16,13 @@ const { title, heroImage, heroAltText, pubDate, author, authorSlug, postCategory
   <div>
     <h1 class="font-sans antialiased font-normal mb-0">{title}</h1>
     <p class="uppercase text-xs">
-      <a href={authorSlug} class="no-underline">{author}</a> | <FormattedDate date={pubDate} />
+      <a
+        href={`/authors/${author
+          ?.replace(/[']+/g, "")
+          .replace(/[.\s]+/g, "-")
+          .toLowerCase()}`}
+        class="no-underline">{author}</a
+      > | <FormattedDate date={pubDate} />
     </p>
     <div class="mt-3 mb-6 border-b-subfooter border-lsq-orange w-20"></div>
     <slot />
