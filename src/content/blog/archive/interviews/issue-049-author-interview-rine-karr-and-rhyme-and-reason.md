@@ -1,0 +1,22 @@
+---
+author: Cat Luria
+authorSlug: cat-luria
+excerpt: Fear not, dear readers, we still have a few Issue 049 author interviews on
+  hand! Today we're talking with Rine Karr about her sci-fi story "Rhyme and Reason."...
+postCategory: Interviews
+pubDate: '2022-05-17'
+title: 'Issue 049 Author Interview: Rine Karr and "Rhyme and Reason"'
+---
+Fear not, dear readers, we still have a few Issue 049 author interviews on hand! Today we're talking with Rine Karr about her sci-fi story "Rhyme and Reason."
+
+LSQ:  I love a good rescue story. The interplay between Raison and Rhyme is exciting, especially as we see them fighting to keep their ship together. What part of this story came to you first—the relationship between Raison and Rhyme, or the scenario of a crash-landing?
+
+Rine: I want to say that both parts of the story came to me simultaneously—both the relationship between Rhyme and the Raison and the crash-landing scenario. I've been working on a sci-fi novel for a while now, and for whatever reason, a crash-landing scenario depicting a relationship between a human and an artificial—an artificial intelligence—kept coming to mind, but it had no place in my novel. So I began exploring this scene on the side as a potential short story, which I began drafting shortly after the start of the pandemic. I had this need, for some reason, to write this story down; it just kept haunting me! The relationship between Rhyme and the Raison, in particular, was something I felt I needed to explore. I think I was channeling some of my feelings at the time regarding loneliness, fear, and this new world we were all facing, specifically how interacting with other people solely through technology and screens had become our reality. I imagined that these sort of disembodied interactions I was having might be what it would feel like to interact with a sentient artificial intelligence, so I decided to play with that idea in a short story.
+
+LSQ: Stories like this always make me curious about the future of humanity’s interconnectedness with technology. Do you see connections like the one Rhyme and Raison share as possible someday?
+
+Rine: I am no expert when it comes to artificial intelligence or biotechnology or what is even possible science-wise regarding technology and the human body, although I do try to learn about these things, but I too have always been fascinated by our ever-changing relationship with technology, and I would like to hope that a positive connection like the one between Rhyme and the Raison would be possible someday. This hope is definitely inspired by some of the sci-fi stories I've consumed over the years—Ghost in the Shell, Mass Effect, Star Trek, and the Imperial Radch trilogy come to mind. Even as our society struggles with inequitable algorithms, surveillance capitalism, the spread of misleading information, and other problems that human-made technology has produced, technology does result in positive outcomes too, and I think I wanted to show that in this story by exploring the possibility that we might become friends with our computers someday.
+
+LSQ: You share some wonderful bits of worldbuilding in this story—one of my faves is “biomother”—that makes me think there’s a lot more to this world than meets the eye. Would you revisit these two, in their new incarnation, in another story?
+
+Rine: I'm so glad you noticed and liked my little nods to other aspects of this world I've created—am still creating. Like I said, I've been working on a sci-fi novel for a while now, and this short story sort of stems from that worldbuilding. I'm still working things out all the time and my ideas are bound to change, but "biomother" is also one of my favorites. It hints at the kind of society Rhyme comes from—a society that has expanded its definition of family. A society in which children may or may not have a "biomother." A society in which children may have multiple mothers or fathers or guardians. A society that raises its children more collectively. A society that is so technologically advanced that reproduction is no longer solely biologically-based. But I digress and to answer your question: no, I haven't thought too deeply yet about writing these two characters into another story, although I have played with the idea of having them show up, possibly in their new incarnation, in my novel. At the moment, I feel like the Raison is more likely to show up on its own than with Rhyme, but we'll have to see how it goes!

@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION } from "../../../consts";
+import BlogPaginatedPage from "../_components/BlogPaginatedPage.astro";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("blog");
+
+  // Extract unique categories from posts
+  const categories = [...new Set(allPosts.filter((post) => post.data.postCategory).map((post) => post.data.postCategory.toLowerCase()))];
+
+  return categories.map((category) => {
+    // Filter posts for this category
+    const categoryPosts = allPosts.filter((post) => post.data.postCategory && post.data.postCategory.toLowerCase() === category).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    // Take just page 1 (first 10 posts)
+    const postsForPage = categoryPosts.slice(0, 10);
+    const totalPages = Math.ceil(categoryPosts.length / 10);
+
+    return {
+      params: { category },
+      props: {
+        category,
+        posts: postsForPage,
+        currentPage: 1,
+        totalPages,
+        allCategoryPosts: categoryPosts,
+      },
+    };
+  });
+}
+
+const { category, posts, currentPage, totalPages } = Astro.props;
+
+// Create a proper display name for the category (capitalize first letter of each word)
+const categoryDisplayName = (category as string)
+  .split("-")
+  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+  .join(" ");
+---
+
+<BlogPaginatedPage posts={posts} currentPage={currentPage} totalPages={totalPages} title={`${categoryDisplayName} - Blog`} description={`${categoryDisplayName} posts from Luna Station Quarterly`} categoryName={category as string} />

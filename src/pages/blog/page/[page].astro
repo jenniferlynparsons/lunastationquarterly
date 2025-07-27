@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION } from "../../../consts";
+import BlogPaginatedPage from "../_components/BlogPaginatedPage.astro";
+
+export async function getStaticPaths() {
+  // Get all blog posts
+  const allPosts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+  // Define how many items per page
+  const ITEMS_PER_PAGE = 10;
+  const totalPages = Math.ceil(allPosts.length / ITEMS_PER_PAGE);
+
+  // Return an array of page paths
+  return Array.from({ length: totalPages })
+    .map((_, index) => {
+      const pageNumber = index + 1;
+      const start = index * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
+
+      return {
+        params: { page: pageNumber.toString() },
+        props: {
+          posts: allPosts.slice(start, end),
+          currentPage: pageNumber,
+          totalPages: totalPages,
+        },
+      };
+    })
+    .filter((page) => page.params.page !== "1"); // Skip page 1 as it's covered by index.astro
+}
+
+const { posts, currentPage, totalPages } = Astro.props;
+---
+
+<BlogPaginatedPage posts={posts} currentPage={currentPage} totalPages={totalPages} title={`Blog - Page ${currentPage}`} description={SITE_DESCRIPTION} />

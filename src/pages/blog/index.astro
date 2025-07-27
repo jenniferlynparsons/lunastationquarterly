@@ -1,60 +1,18 @@
 ---
-import Page from "../../layouts/Page.astro";
-import { SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
-import FormattedDate from "../../components/FormattedDate.astro";
-// import HeroImage from "../../components/HeroImage.astro";
-// import LinkButton from "@components/LinkButton.astro";
+import BlogPaginatedPage from "./_components/BlogPaginatedPage.astro";
+import { SITE_DESCRIPTION } from "../../consts";
 
-const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+// Get all posts and sort them by publication date (newest first)
+const allPosts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Pagination settings
+const postsPerPage = 10;
+const currentPage = 1;
+const totalPages = Math.ceil(allPosts.length / postsPerPage);
+
+// Get the posts for the current page
+const posts = allPosts.slice(0, postsPerPage);
 ---
 
-<Page title="Blog" description={SITE_DESCRIPTION}>
-  <ul>
-    {
-      posts.map((post) => (
-        <>
-          <div class="mt-10 first:mt-0">
-            {/* {post.data.heroImage && (
-              <HeroImage imagePath={post.data.heroImage} altText={post.data.heroAltText ? post.data.heroAltText : ""} />
-            )} */}
-            <div class="metadata text-center">
-              {post.data.postCategory && (
-                <a href={post.data.categorySlug} class="no-underline">
-                  <span class="uppercase text-xs">{post.data.postCategory}</span>
-                </a>
-              )}
-              <a href={`/blog/${post.slug}/`} class="no-underline">
-                <h2 class="text-2xl font-normal font-sans mb-1 mt-0">{post.data.title}</h2>
-              </a>
-              <p class="uppercase text-xs">
-                {post.data.author && (
-                  <>
-                    <a
-                      href={`/authors/${post.data.author
-                        .replace(/[']+/g, "")
-                        .replace(/[.\s]+/g, "-")
-                        .toLowerCase()}`}
-                      class="no-underline"
-                    >
-                      {post.data.author}
-                    </a>
-                    <span> | </span>
-                  </>
-                )}
-                <FormattedDate date={post.data.pubDate} />
-              </p>
-            </div>
-            <p>
-              {post.data.excerpt}{" "}
-              <span>
-                <a href={`/blog/${post.slug}/`}>Continue reading...</a>
-              </span>
-            </p>
-          </div>
-          <hr />
-        </>
-      ))
-    }
-  </ul>
-</Page>
+<BlogPaginatedPage posts={posts} currentPage={currentPage} totalPages={totalPages} title="Blog" description={SITE_DESCRIPTION} />

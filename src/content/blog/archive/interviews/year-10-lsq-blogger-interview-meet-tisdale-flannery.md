@@ -1,0 +1,33 @@
+---
+author: Anna O'Brien
+authorSlug: anna-obrien
+excerpt: Can you believe it's almost the third quarter of Year 10? Where does the
+  time go? Thankfully we've still got lots to celebrate. We're shining the spotlight
+  today on blogger Tisdale Flannery, author of the "Tea with Strangers" column...
+postCategory: Interviews
+pubDate: '2019-08-29'
+title: 'Year 10 LSQ Blogger Interview: Meet Tisdale Flannery'
+---
+Can you believe it's almost the third quarter of Year 10? Where does the time go? Thankfully we've still got lots to celebrate. We're shining the spotlight today on blogger Tisdale Flannery, author of the "Tea with Strangers" column.
+
+LSQ: Tell us about how you got involved with LSQ's blog -- how long have you been a blogger, how did you first learn about LSQ? What made you want to join the blog?
+
+Tisdale: A brilliant writer invited members of our critique group to participate! At first, I was honestly intimidated. I've never blogged before, and I don't consider myself an expert on much of anything outside of my imagination. But Anna reassured us that yes, we were capable of doing this, and so, with trepidation, I began casting about for ideas. Initially I wanted to write about women in fiction in underrepresented nations. I quickly realized I was out of my depth; I knew so little about that. I did, however, know a great deal about Tarot, having read cards for decades now. So realizing that should be my topic was like being in a dark room when someone flips on the bright light:  of course that's what I can share with the world. I have enjoyed writing every one of these posts.
+
+LSQ: Tell us about your monthly column, "Tea with Strangers." Can you tell us how you became interested in Tarot? Each post of yours relates the concept of a card to a theme about the practice of writing. Can you tell us how you made the connection between Tarot and writing? Do you find that considering these interconnected themes helps you with your own writing?
+
+Tisdale: One of my roommates in college was an artist. She was also a bit prickly; she slept only when no one was home and covered her headboard and footboard in concertina wire. Once she bought a deck of Tarot cards for a project. When she was out of the room, I figured she wouldn't mind if I took a look at them. She did mind. In fact, she told me, I now needed to buy them from her, because my energy had already been transferred to the cards when I touched them with my bare hands. I considered questioning her on this, but her latest expression of rage on canvas changed my mind. (Exaggerating, just a little, and in actuality, we're still friends, but that doesn't mean it would have been wise to cross her.) That was the beginning of a long and fruitful relationship with cartomancy.
+
+As for the connection, that was natural, because writing really is always on my mind. I frequently go to my cards with issues or questions I have about my writing projects. I find that the cards reveal both things I knew, but wasn't admitting to myself, and things I'd never considered. So, in that way, Tarot has always been helping me with my writing.
+
+LSQ: How closely do you identify with the interviewer in your column? Is there cross-over between her questions and writing worries and your own? Alternatively, the people the interviewer seeks provide extremely sage advice. Hopefully you identify with the interviewees as well?
+
+Tisdale: My poor interviewer is more serious and more stressed out about life than I generally am, though what she learns in each interview, I am in the process of learning, myself; many lessons have to be learned over and over again, with different shades of meaning cast by the changing light of experience. I see myself as a bit more like the doppelganger. I don't take too much of anything seriously these days; I'm along for the ride, artistically. I don't at all identify with the interviewees, I'm afraid. I would say that, to me, they're more like the voice of the muse that speaks through us when we're able to shut up for a moment. I think that's why I really love this fictional format. It allows me to go into my storytelling mode and write these characters without my conscious guidance at all. I don't think I could write a non-fiction blog!
+
+LSQ: Can you name some authors you draw inspiration from and tell us why?
+
+Tisdale: Right now, my favorite books are the Crystal Cave trilogy by Mary Stewart. I've been listening to them on Audible (highly recommended!), rewinding, and trying to internalize her beautiful language. She's on the List of Writers I Wish To Emulate, which also includes John Steinbeck (for the simple profound observations about human nature), Isak Dinesen (for the sheer power of her storytelling voice), Peter S. Beagle (for the lyrical, musical nature of his prose), Susanna Clarke (for the reality of the world she's built, and the richness of place she creates), Kim Stanley Robinson (for the truth and depth of his research), Richard Adams (for the unfettered freedom of his imagination), and others: Angelica Gorodischer, Gabriel Garcia Marquez, Alice Hoffman, Barbara Kingsolver. I think, though, that one of the writers that shaped me the most was John Irving. My sisters and I grew up in a very restrictive environment, but we somehow kept a secret library of his books, banned by our religious community, and boy, did they open our eyes. I think, from that, I learned the most important lessons of all: Open locked closets and pull everything out. Go face to face with your deepest fears. Speak the truths that threaten the status quo, that make the people in charge uncomfortable.
+
+LSQ: Can you tell us a bit about your own fiction writing? What are the writing projects you are working on at the moment?
+
+Tisdale: I have two novels and a handful of short stories written at this point in my life, in various stages of unsatisfactory revision, but right now, I'm in the process of gestating a new novel. This time, I intend to let it develop only naturally, not forcing the story in order to meet any self-imposed deadline. I research, and moodle, and dream, and draw, and jot ideas down, and go places by myself, and stare at moving water, and make playlists of songs that have the right feel; basically, I'm using the pretext of writing this novel as an excuse to do all the things I love to do. But so, in order not to let the pipes get rusty, I'm writing a short story here and there as I go, whenever I feel the impulse. I'm probably wasting a great deal of time, but it's fun.

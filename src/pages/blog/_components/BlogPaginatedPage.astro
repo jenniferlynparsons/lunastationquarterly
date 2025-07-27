@@ -1,0 +1,104 @@
+---
+import Page from "../../../layouts/Page.astro";
+import { SITE_DESCRIPTION } from "../../../consts";
+import FormattedDate from "../../../components/FormattedDate.astro";
+
+export interface Props {
+  posts: any[];
+  currentPage: number;
+  totalPages: number;
+  title?: string;
+  description?: string;
+  categoryName?: string;
+}
+
+const { posts, currentPage, totalPages, title = "Blog", description = SITE_DESCRIPTION, categoryName = null } = Astro.props;
+
+// Generate paths for category pages if applicable
+const getPagePath = (pageNum: number) => {
+  if (categoryName) {
+    return pageNum === 1 ? `/blog/category/${categoryName}/` : `/blog/category/${categoryName}/page/${pageNum}/`;
+  }
+  return pageNum === 1 ? `/blog/` : `/blog/page/${pageNum}/`;
+};
+---
+
+<Page title={categoryName ? `${categoryName} - Page ${currentPage}` : `Blog - Page ${currentPage}`} description={description}>
+  {
+    categoryName && (
+      <div class="category-heading mb-6">
+        <h1 class="text-center text-3xl capitalize">{categoryName}</h1>
+      </div>
+    )
+  }
+
+  <ul>
+    {
+      posts.map((post) => (
+        <>
+          <div class="mt-10 first:mt-0">
+            <div class="metadata text-center">
+              {post.data.postCategory && (
+                <a href={`/blog/category/${post.data.postCategory.toLowerCase().replace(/\s+/g, "-")}/`} class="no-underline">
+                  <span class="uppercase text-xs">{post.data.postCategory}</span>
+                </a>
+              )}
+              <a href={`/blog/${post.slug}/`} class="no-underline">
+                <h2 class="text-2xl font-normal font-sans mb-1 mt-0">{post.data.title}</h2>
+              </a>
+              <p class="uppercase text-xs">
+                {post.data.author && (
+                  <>
+                    <a
+                      href={`/authors/${post.data.author
+                        .replace(/[']+/g, "")
+                        .replace(/[.\s]+/g, "-")
+                        .toLowerCase()}`}
+                      class="no-underline"
+                    >
+                      {post.data.author}
+                    </a>
+                    <span> | </span>
+                  </>
+                )}
+                <FormattedDate date={post.data.pubDate} />
+              </p>
+            </div>
+            <p>
+              {post.data.excerpt}{" "}
+              <span>
+                <a href={`/blog/${post.slug}/`}>Continue reading...</a>
+              </span>
+            </p>
+          </div>
+          <hr />
+        </>
+      ))
+    }
+  </ul>
+
+  <!-- Pagination -->
+  {
+    totalPages > 1 && (
+      <div class="pagination flex justify-center items-center gap-2 my-8">
+        {currentPage > 1 && (
+          <a href={getPagePath(currentPage - 1)} class="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded">
+            &larr; Previous
+          </a>
+        )}
+
+        {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
+          <a href={getPagePath(pageNum)} class={`px-4 py-2 rounded ${pageNum === currentPage ? "bg-gray-800 text-white font-bold" : "bg-gray-200 hover:bg-gray-300"}`}>
+            {pageNum}
+          </a>
+        ))}
+
+        {currentPage < totalPages && (
+          <a href={getPagePath(currentPage + 1)} class="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded">
+            Next &rarr;
+          </a>
+        )}
+      </div>
+    )
+  }
+</Page>

@@ -1,0 +1,55 @@
+---
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION } from "../../../../../consts";
+import BlogPaginatedPage from "../../../_components/BlogPaginatedPage.astro";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("blog");
+
+  // Extract unique categories from posts
+  const categories = [...new Set(allPosts.filter((post) => post.data.postCategory).map((post) => post.data.postCategory.toLowerCase().replace(/\s+/g, "-")))];
+
+  const paths = [];
+
+  for (const category of categories) {
+    // Filter posts for this category
+    const categoryPosts = allPosts.filter((post) => post.data.postCategory && post.data.postCategory.toLowerCase().replace(/\s+/g, "-") === category).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    // Calculate the number of pages
+    const ITEMS_PER_PAGE = 10;
+    const totalPages = Math.ceil(categoryPosts.length / ITEMS_PER_PAGE);
+
+    // Create a path for each page, except page 1 (which is handled by [category].astro)
+    for (let i = 1; i < totalPages; i++) {
+      const pageNumber = i + 1;
+      const start = i * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
+
+      paths.push({
+        params: {
+          category: category as string,
+          page: pageNumber.toString(),
+        },
+        props: {
+          category: category as string,
+          posts: categoryPosts.slice(start, end),
+          currentPage: pageNumber,
+          totalPages,
+        },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { category, posts, currentPage, totalPages } = Astro.props;
+
+// Create a proper display name for the category (capitalize first letter of each word)
+const categoryDisplayName = (category as string)
+  .split("-")
+  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+  .join(" ");
+---
+
+<BlogPaginatedPage posts={posts} currentPage={currentPage} totalPages={totalPages} title={`${categoryDisplayName} - Page ${currentPage}`} description={`${categoryDisplayName} posts from Luna Station Quarterly - Page ${currentPage}`} categoryName={category as string} />

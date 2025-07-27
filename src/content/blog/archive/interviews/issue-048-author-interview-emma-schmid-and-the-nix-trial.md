@@ -1,0 +1,22 @@
+---
+author: Cat Luria
+authorSlug: cat-luria
+excerpt: Today's myth-inspired Issue 048 story takes us to the Greece! Find out where
+  author Emma Schmid's ideas came from for her story "The Nix Trial."...
+postCategory: Interviews
+pubDate: '2021-12-30'
+title: 'Issue 048 Author Interview: Emma Schmid and "The Nix Trial"'
+---
+Today's myth-inspired Issue 048 story takes us to the Greece! Find out where author Emma Schmid's ideas came from for her story "The Nix Trial."
+
+LSQ: As a fan of Greek mythology, I have to say I LOVED it when I finally figured out what was going on with your story! What drew you to Harpies?
+
+Emma: I'm so glad to hear you enjoyed the mythology aspect. I'm a Classics major and my favorite classes were about myths. Harpies aren't featured a lot in stories, and when I first read about the Harpies in Hesiod years ago, I didn't think much of them. They show up occasionally, listed as insatiable and vicious, but they're not huge players, like the Gorgons or even nymphs. When I started to write this story, thinking about a goddess who would give her blessing, I realized I wanted it to be a bit unexpected. The Harpies are unique because of their bird-bodies and women's facial features; they're not exactly human and not exactly bird, and I felt that a god's blessing would be something very much like that. I like the idea that the conquerors of the trial are able to walk in both worlds; in my mind, they're sort of like demi-gods. They have the unique ability to be part of the god's world and the human world at the same time.
+
+LSQ: The description of the trial itself was great, but the description of preparing for the trial was even more compelling to me somehow. You did such a wonderful job of evoking the pain and hope and resilience necessary for such a feat. How did you come up with this idea?
+
+Emma: Thank you so much! I actually started this story as a writing prompt for a class I was taking - I believe we had to use the word summit somehow, either as a theme or actual word in the story. At first, this was just Ida climbing, changing forms, and leaping off the cliff to spread her wings. A while after writing it, I thought it was too easy. I really wanted to show how dangerous and difficult this kind of trial would be without safety equipment. For me, the idea that these young women are willing to sacrifice their youth, their limbs, and their lives to the possibility of the goddess' blessing was so fascinating. Besides myth, the classes I enjoyed most in university usually involved rituals, sacrifices, and festivals. I really enjoyed learning about types of things that people in the ancient world would do to appease the gods. There are a lot of strange things done to become initiated into priestesshoods. The Eleusinian Mysteries in particular are shrouded in theories, one of which is that after sacrificing a piglet to the goddess Demeter, initiates would rappel down a cliff to a river bank, and pick up the bones of previously sacrificed animals. In my story, though very different, Ida is still willing to break bones, crack her fingernails, and learn to survive in the thin oxygen of the mountain, just for that chance to be blessed. Even though she's watched over by the goddess, there's no guarantee that she won't get hurt - and even when she does, she overcomes her injury. Anyone who can survive an injury as devastating as a broken spine, whether they simply live on, or push themselves back to their peak condition, like Ida, has the most incredible resilience and strength, and I've got to say that I'm truly in awe of that.
+
+LSQ: I’m intrigued by your mention of the trial to appease Lord Talos. Have you considered writing another story in this world? Would it be about Ida, or someone else if you did?
+
+Emma: I've actually been thinking more and more about this world since writing the story. I think I'd really like to continue on with the idea of these trials, but I would probably use a new character. I've been toying with the idea of the Lord Talos trial being more like spelunking - exploring, maybe mapping underwater caves to prove one's resilience, strength, and bravery. I'm fairly claustrophobic myself, so it would be a feat of strength for me to get into the head of this new character, but I'd love to try it out.

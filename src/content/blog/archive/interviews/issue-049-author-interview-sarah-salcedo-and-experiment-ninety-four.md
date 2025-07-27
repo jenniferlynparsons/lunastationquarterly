@@ -1,0 +1,36 @@
+---
+author: Jen Gheller
+authorSlug: jen-gheller
+excerpt: After reading an excellent story, do you ever wonder where the author got
+  the idea or how they crafted a certain part? Our lovely authors at LSQ are kind
+  enough to answer those questions for us and more! Today we continue our Issue 049
+  author...
+postCategory: Interviews
+pubDate: '2022-03-17'
+title: 'Issue 049 Author Interview: Sarah Salcedo and "Experiment Ninety-Four"'
+---
+After reading an excellent story, do you ever wonder where the author got the idea or how they crafted a certain part? Our lovely authors at LSQ are kind enough to answer those questions for us and more! Today we continue our Issue 049 author interviews with Sarah Salcedo and her answers to our questions about "Experiment Ninety-Four".
+
+LSQ: What were the challenges in writing a story where the protagonist has no other sentient characters to interact with?
+
+Sarah: There were a lot of challenges, to be honest. I couldn't have too much interiority or the piece would feel stagnant. The story seed began with this initial image of a boy in front of a large window, staring at a nebula and talking to it like a mother. But obviously, that's just a premise and the nebula doesn't talk back (although a few beta readers wanted me to push Caspian's sanity in that direction). Ultimately, the story just had to be put on pause because I did lack a level of interaction outside Cas' head. I didn't want Caspian to hallucinate. Is he desperate? Yes. But he's not hearing voices.
+
+I'm a great believer in not forcing a story in a direction it doesn't want to go. So for me, when a story hits a wall, I walk away and trust that my subconscious will continue to solve the problem. It was almost a year later when I was walking into a grocery store, and the thought struck like lightning. The twist you get to halfway through the story revealed itself to me with such an obviousness that it was as if I'd known it the whole time. Then everything cracked open. The dialogue could come after that reveal, and it sets up the final conflict and conversation. It also offers Caspian what he wanted so much--conversation with someone who would answer back. It's almost enough to talk him out of trying to leave.
+
+LSQ: Caspian likely would not have lasted as long as he did without the books that were left for him. Why do you think stories have such an impact on us?
+
+Sarah: He definitely wouldn't have lasted without books. Books preserved Caspian's heart and mind. They raised him in lieu of any parents. They also are what gives him the drive to risk his life to escape. I like to think Caspian read Jack London's "I would rather be ashes than dust! I would rather that my spark should burn out in a brilliant blaze than it should be stifled by dry-rot. I would rather be a superb meteor, every atom of me in magnificent glow, than a sleepy and permanent planet. The proper function of man is to live, not exist" and took it very literally.
+
+Stories have served a function for preserving collective wisdom and inspiration since we as a species first began making myths. I love the anthropological histories of mythmaking and oral tradition. Why have we always need stories? If you think about how stories lead us through our own personal darkness, impart collective wisdom and warnings, share histories, unite us to community--it's amazing. We used stories to feel less alone, to learn and be connected to others since the dawn of our communicative existence. There are always those debates going around about what is and isn't a good medium for stories--film vs TV, literary genres versus SFF--but it's a bit meaningless in the end. The debates ignore our immense need as a species for stories. Of all kinds. On cave walls and around campfires, in three volume novels and dime store comics, on TV, in great works of literature and serious film, in Marvel movies, and even on TikTok (there is some great storytelling being done in short form there), we pour our love for stories into whatever forms we find. We can't ever have enough stories as a species. I like to think about what's stayed a constant--from the first spoken myth to wonderful literary magazines online and in print like LSQ, why do we need stories so much?
+
+There are lots of answers there, but speaking for Caspian, he is drawn to the same type of stories that he offers readers: Hope in the darkness, resilience in the face of impossible odds, examinations of despair and cruelty and a character who creates their own moment of hope or transformation despite that they're facing. Maybe it's me as a millennial having always lived in the shadow of the apocalypse, but I find those are the stories: ones that face the reality of darkness but find ways to seek out hope and healing.
+
+LSQ: Have you considered writing more stories about Caspian in the future? (Assuming he makes it, which I firmly choose to believe he does!) What do you think his future would look like?
+
+Sarah: Caspian will actually appear in a story that I have forthcoming in Uncharted Magazine on May 19 and May 26! It's pure luck that both stories are coming out within a few months of each other... and in order! It will be my first published novelette, and I'm grateful because the word count over at Uncharted is typically 5000 words, so I'm the first story they're serializing. We'll meet Caspian decades after he set out from Dawn Treader Station. While I have no plans right now to write more stories with Cas, I think one day it would be amazing to write about the adventures he has on that journey, and after the events of the forthcoming, "Our Memories Are What We Fear the Most."
+
+LSQ: Are you working on any other writing projects at the moment? If so, can you tell us a bit about them?
+
+Sarah: I'm currently finishing a short story collection, The Prodigals. Several of the stories from the collection, including "Experiment Ninety-Four" have been published within the last year with more on the way. Some stories are just for the collection. It's possible that when all is said and done, another Caspian story may end there.
+
+On top of my short fiction, I am currently revising an upmarket literary novel about an autistic woman dealing with her mother and grandmother in a small town. I wrote the original draft of the novel years ago, before I was diagnosed as autistic, on top of a previously known diagnosis of ADHD. I'm in the process of rewriting this novel more intentionally, with the neurodivergence I unconsciously imbued my character with more explicit and issues such as under-diagnosis of ableism, healthcare access, misdiagnosis for autistic women, neurodiversity, family trauma, and new beginnings. I'm also halfway through a pastoral novel about a family of dragon herders who are trying to figure out how to heal from tragedy in the midst of an endless war. It is the best thing I've written so far in my relatively young career, and I'm excited to see how the story takes shape this year. I'm alternating between both manuscripts right now and strangely, both stories are helping me gain distance and perspective when I become too lost in one particular story world.

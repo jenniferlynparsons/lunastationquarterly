@@ -1,0 +1,31 @@
+---
+author: Janna Miller
+authorSlug: janna-miller
+excerpt: Did you know Issue 046 is our biggest issue yet? That means more reading
+  fun, and more author interviews to go around! Today we're visiting with Elizabeth
+  McEntee about her story "Perihelia."...
+postCategory: Interviews
+pubDate: '2021-08-03'
+title: 'Issue 046 Author Interview: Elizabeth McEntee and "Perihelia"'
+---
+Did you know Issue 046 is our biggest issue yet? That means more reading fun, and more author interviews to go around! Today we're visiting with Elizabeth McEntee about her story "Perihelia."
+
+LSQ: A combination of worlds, this story has elements of real and not real as well as science and metaphysics. In terms of allegory and science, where does your story lie?
+
+Elizabeth: I was really into science fiction as a kid, but have been gravitating toward fantasy more as an adult. I think it's because fantasy, to me, really captures a sense of wonder and also a sense of narrative malleability that doesn't need a scientific explanation at every step. I love that freedom within total suspension of disbelief. And sometimes it's there in sci-fi, too, the "soft" sort. I hadn't written any science fiction in a while before I wrote this, so while writing "Perihelia" one of my goals was to create something that was as close to fantasy as possible while having some anchor onto the scientific. I opted for a comet as that anchor, as I find them fascinating and poetic. I think, perhaps, there is a lot of worth in "soft" science fiction, because it allows the reader to start to believe that things in fantasy may be one day possible, somehow. Including being able to be turned into an ice monster willingly. But that's the next question.
+
+LSQ: A love story at the core, Berene’s backstory is hinted at, but not explored. How much pain did she experience to make her leave humanity and become a self-isolated entity?
+
+Elizabeth: Berene is the character who received more of myself. I would rather not be human for various reasons. Berene felt the same, though I never really specified to myself exactly what her reasoning was, though it likely had something to do with the prospect of relative immortality and some degree of alienation from society, as well as personal fantasies that could be made true. It was definitely not because of Soleia, though. It was something that Berene had been struggling with much before becoming romantically involved with Soleia, and it ended up being a hard choice she decided she had to make. Self-fulfillment (and self-preservation) over love, even at great expense of quality of life.
+
+A topic that interests me is the concept of what happens after a stable state is achieved. I suppose the classic form of this is "what happens after happily-ever-after," but I think of it specifically from a transhumanist perspective, and perhaps Berene's path is one that is similar to a rather isolated version of transhumanism. And a bit bleak, by some people's standards, but I can't say Berene made the wrong choice. It's what she felt like she had to do, because everything was pointing toward it as the escape from her mortal human life. If you're in a burning house and there's a clear exit right in front of you to a snowy expanse, you're going to want to make a run for it and deal with the snow later.
+
+LSQ: Soleia is a little like her fiance, in that she doesn’t do anything halfway. She has come across space to find her love, with no way back. What does this say about her character and her story?
+
+Elizabeth: I appreciate you saying that, they really are alike, in a bit of a mismatched way. She has a different set of values, but that same focus on those values. And the same shortsightedness. But with Soleia, her path ended up being a bit more tragic than I even intended. She was originally intended to be the warmth pushing back into Berene's icy world, but while writing, I realized that her warmth, Berene, left her a long time ago. So it had to go the way it did. Soleia's goal was to get her own life back, by being with Berene, with the vague assumption that Berene in her "ascended" form would be able to figure out what to do next...which, as it turned out, was not the case.
+
+LSQ: At the end, Berene was able to find some of her humanity to be with her fiancé, even if it was in death. The scene of them forever entwined and preserved on a comet of dust and ice is a haunting one. What was the hardest moment of this story to write?
+
+Elizabeth: Well, first...it's not death for Berene, at least. This perihelion was not about to be the last for the comet. And maybe it's not death for Soleia, if the attempt at suspended animation was successful. My thought about this situation is this: Berene can't take her attention away from Soleia or else she'll likely start to thaw, and Soleia can't be thawed without being able to breathe. So they're both stuck there unless someone finds them, which is unlikely. But possible. But very unlikely. Anyway, this isn't an answer to the actual question.
+
+I suppose this may not be the answer you were hoping for, but the hardest moments of this story to write were all in the first third or so. I had an entirely different draft for the first several pages' worth, as I was writing this to be a more lighthearted story at first. However, I feel like I naturally tend toward drama of the sort that "Perihelia" ended up becoming, so when I saw where it was going, I let it slide that way. And then, as a very helpful friend pointed out, I ended up with a story that had a massive shift in tone. So, it made a lot more sense to rework the beginning, and I'm glad I did, because I'm much happier with the final version. Writing my lovely couple to their probable doom was a lot more fluid for me, because, again, it just had to go the way it did, at least in my mind. That said, I did find myself becoming very emotionally invested, and emotionally depleted after I wrote the ending. But there's catharsis in that, and I think that's worth it.

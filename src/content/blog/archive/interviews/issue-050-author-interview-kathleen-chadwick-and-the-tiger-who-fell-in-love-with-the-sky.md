@@ -1,0 +1,26 @@
+---
+author: Cat Luria
+authorSlug: cat-luria
+excerpt: Happy Tuesday, dear readers! Today we're sitting down with Issue 050 author
+  Kathleen Chadwick to discuss her lovely fable "The Tiger Who Fell In Love With the
+  Sky."...
+postCategory: Interviews
+pubDate: '2022-07-05'
+title: 'Issue 050 Author Interview: Kathleen Chadwick and "The Tiger Who Fell In Love
+  With the Sky"'
+---
+Happy Tuesday, dear readers! Today we're sitting down with Issue 050 author Kathleen Chadwick to discuss her lovely fable "The Tiger Who Fell In Love With the Sky."
+
+LSQ: This is such a gorgeous fable! I kept waiting for it to go in a different direction but it ended just the way I hoped it would, and I found that so gratifying. What was your inspiration for this story?
+
+Kathleen: I wrote the first version of the story quite a while ago. At the time I had been reading Italian Folktales by Italo Calvino, and G***y Folk Tales*  by Diane Tong. They're both books of very traditional stories, and they have a particular authorial voice that I really love. The point of view slips between third and close-third person, which lets you see the characters from the outside but also glimpse inside. Motivations and thoughts are briefly mentioned, but not dwelt upon. People (animals are people here) think through options and make decisions, but they don't agonize over things. They pick and move on. There's a sense of detachment to traditional stories that I was trying to create, where you have a very limited view of a world, and things are cut down to only what is necessary to tell the story with the atmosphere you're aiming for. Things happen and they are described, but minimally commented on. Observation without judgement.  The other book that inspired me is Seasons of Splendour by Madhur Jaffrey. It's a book of both traditional tales and stories from the author's childhood, arranged around the cycle of seasons and holidays in India. It was one of my favorite books growing up, and the illustrations are incredible and occasionally terrifying to a small child. The setting for the story was inspired by the stories and illustrations of that book.
+
+*The word used in the title of this book is an ethnic slur against the Roma people. I don't know if Ms. Tong was aware of the offensive nature of the word. With the time spent researching the stories, how could she not know? But then why call the book that? It is/was the most widely recognizable name for the Roma people, and I think she probably used it for that reason. It's a wonderful book with many lovely stories told by the Roma people. I don't want to leave it out, because I would like other people to discover it.
+
+LSQ: I got a beautiful sense of place and character with your story, despite it being comparatively short. The monkeys are fantastic, and the tiger changes so beautifully on his journey. How long did it take you to flesh this out so that it read the way you wanted it to?
+
+Kathleen: I have just gone and checked the file (thank you Google docs), and I started writing this story on July 25, 2007. So the answer is somewhere between fifteen years and immediately. The main journey of the story was clear from the inception. It could have gone one of two ways. There's another ending I wrote, in which the tiger goes with the sky-tiger the first time they meet, and it's more ambiguous what happens then. Stories have shapes they want to be, and fables and fairy tales have a logic like a math equation- once the story started it was going to play out according to certain rules. You can add three and three and get six, or multiply and get nine, but under no circumstances will you get seventeen. The characters wanted to fill certain fairy tale roles - the arrogant prince who is humbled, the clever peasant with a sharp tongue, the ominous magical figure who could help or destroy, the supernatural lover who chooses a mortal life. Once I had it written, I continued to tweak and play with it on and off for years. Fifteen of them apparently. Things clarified and voices changed a little, but the core of the story and characters didn't really shift.
+
+LSQ: The title really tells so much about the arc of the story, yet so little at the same time. This is just gorgeous, it makes me want to pick out tiger constellations in the stars. Have you thought of writing other stories in this style? I’d love a whole anthology like this!
+
+Kathleen: Thank you! I would love to write more stories in this style. I frequently make up bedtime stories for my children that have a fairy tale sensibility to them. There are searches for magical objects, the Queen of the Sky in love with the Queen of the Sea, but how can they live together, mysteriously abandoned cities, etc. Sometimes I fantasize about writing them down and trying to publish them, but children's books are a very difficult market to break into. Shortly after I first wrote "The Tiger Who Fell In Love With The Sky," I started another fairy tale. It's about a barren king who wants an heir, a queen desperate to please her husband, and the choices they each make. It's also about lovers and parents and children, and what is forgivable.  Maybe it's time to go back to it.
