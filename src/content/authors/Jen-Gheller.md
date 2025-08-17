@@ -316,7 +316,7 @@ posts:
 - 'LSQ Monthly News Flash: August 2022'
 - Issue 051 Release!!! Meet Cover Artist Devin Elle Kurtz
 - 'LSQ Monthly News Flash: September 2022'
-- 'Issue 051 Author Interview: Jenna Glover and "Peanut Butter Elegy"'
+- 'Issue 051 Author Interview: Catherine Tavares and "Peanut Butter Elegy"'
 - 'Issue 051 Author Interview: Rebecca Burton and "There Is a Cottage by the Woods"'
 - 'Issue 051 Author Interview: CL Glanzing and "Fishbone"'
 - 'Issue 051 Author Interview: Denise Khng and "Felt"'

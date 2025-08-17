@@ -7,13 +7,37 @@ import Footer from "../components/Footer.astro";
 import Subfooter from "../components/Subfooter.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 
-const { sidebarVisible } = Astro.props;
+const { 
+  sidebarVisible,
+  // Optional BaseHead props
+  title,
+  description,
+  image,
+  imageAlt,
+  excerpt,
+  articleType,
+  publishedTime,
+  authorName,
+  section,
+  twitterCreator
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead 
+      title={title || SITE_TITLE}
+      description={description || SITE_DESCRIPTION}
+      image={image}
+      imageAlt={imageAlt}
+      excerpt={excerpt}
+      articleType={articleType}
+      publishedTime={publishedTime}
+      authorName={authorName}
+      section={section}
+      twitterCreator={twitterCreator}
+    />
   </head>
   <body>
     <Header title={SITE_TITLE} />

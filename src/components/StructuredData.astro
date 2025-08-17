@@ -1,0 +1,89 @@
+---
+import { ORGANIZATION } from "../consts";
+
+interface Props {
+  type: 'website' | 'article';
+  title: string;
+  description: string;
+  url: string;
+  image?: string;
+  publishedTime?: string;
+  author?: string;
+  section?: string;
+}
+
+const { type, title, description, url, image, publishedTime, author, section } = Astro.props;
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": ORGANIZATION.name,
+  "url": ORGANIZATION.url,
+  "logo": ORGANIZATION.logo,
+  "description": ORGANIZATION.description,
+  "foundingDate": ORGANIZATION.foundingDate,
+  "sameAs": ORGANIZATION.sameAs.filter(Boolean)
+};
+
+let structuredData;
+
+if (type === 'article') {
+  structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "url": url,
+    "datePublished": publishedTime,
+    "author": {
+      "@type": "Person",
+      "name": author
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": ORGANIZATION.name,
+      "logo": {
+        "@type": "ImageObject",
+        "url": ORGANIZATION.logo
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": url
+    },
+    ...(image && {
+      "image": {
+        "@type": "ImageObject",
+        "url": image,
+        "width": 1200,
+        "height": 630
+      }
+    }),
+    ...(section && {
+      "articleSection": section
+    })
+  };
+} else {
+  structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": title,
+    "description": description,
+    "url": url,
+    "publisher": organizationSchema,
+    ...(image && {
+      "image": {
+        "@type": "ImageObject",
+        "url": image,
+        "width": 1200,
+        "height": 630
+      }
+    })
+  };
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
+{type === 'website' && (
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)}></script>
+)}
