@@ -1,32 +1,69 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import PageContainer from "../components/PageContainer.astro";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import NavBar from "../components/NavBar.astro";
+import SideBar from "../components/SideBar.astro";
+import Footer from "../components/Footer.astro";
+import Subfooter from "../components/Subfooter.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import HeroImage from "../components/HeroImage.astro";
+import { SITE_TITLE, TWITTER_HANDLE } from "../consts";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, heroImage, heroAltText, pubDate, author, postCategory, categorySlug } = Astro.props;
+const { title, heroImage, heroAltText, pubDate, author, postCategory, categorySlug, excerpt } = Astro.props;
+const ogImage = heroImage ? `/images/${heroImage}` : undefined;
+const publishedTime = new Date(pubDate).toISOString();
+const twitterCreator = TWITTER_HANDLE; // Could be customized per author if you have author Twitter handles
 ---
 
-<PageContainer sidebarVisible>
-  <div>
-    {heroImage && <HeroImage imagePath={heroImage} altText={heroAltText ? heroAltText : ""} />}
-  </div>
-  <div>
-    <h1 class="font-sans antialiased font-normal mb-0">{title}</h1>
-    <p class="uppercase text-xs">
-      <a
-        href={`/authors/${author
-          ?.replace(/[']+/g, "")
-          .replace(/[.\s]+/g, "-")
-          .toLowerCase()}`}
-        class="no-underline">{author}</a
-      > | <FormattedDate date={pubDate} />
-    </p>
-    <div class="mt-3 mb-6 border-b-subfooter border-lsq-orange w-20"></div>
-    <slot />
-    <p class="uppercase text-xs mt-10">Posted in <a href={categorySlug}>{postCategory}</a></p>
-  </div>
-  <!-- TODO: Add prev/next links -->
-</PageContainer>
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead 
+      title={title}
+      description={excerpt}
+      image={ogImage}
+      imageAlt={heroAltText}
+      excerpt={excerpt}
+      articleType="article"
+      publishedTime={publishedTime}
+      authorName={author}
+      section={postCategory}
+      twitterCreator={twitterCreator}
+    />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <NavBar />
+    <div
+      class="container w-full flex flex-col sm:flex-row flex-grow overflow-hidden mt-10 mb-20 font-serif text-lsq-black max-w-5xl antialiased prose"
+    >
+      <main role="main" class="w-full h-full flex-grow p-3 md:pr-20">
+        <div>
+          {heroImage && <HeroImage imagePath={heroImage} altText={heroAltText ? heroAltText : ""} />}
+        </div>
+        <div>
+          <h1 class="font-sans antialiased font-normal mb-0">{title}</h1>
+          <p class="uppercase text-xs">
+            <a
+              href={`/authors/${author
+                ?.replace(/[']+/g, "")
+                .replace(/[.\s]+/g, "-")
+                .toLowerCase()}`}
+              class="no-underline">{author}</a
+            > | <FormattedDate date={pubDate} />
+          </p>
+          <div class="mt-3 mb-6 border-b-subfooter border-lsq-orange w-20"></div>
+          <slot />
+          <p class="uppercase text-xs mt-10">Posted in <a href={categorySlug}>{postCategory}</a></p>
+        </div>
+        <!-- TODO: Add prev/next links -->
+      </main>
+      <SideBar />
+    </div>
+    <Subfooter />
+    <Footer />
+  </body>
+</html>
