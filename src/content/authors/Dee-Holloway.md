@@ -4,12 +4,12 @@ authorFacebook: ''
 authorGoodreads: https://www.goodreads.com/author/show/7349668.Diana_Hurlburt
 authorInstagram: ''
 authorMastodon: ''
-authorName: Diana Hurlburt
+authorName: Dee Holloway
 authorTumblr: http://dianahurlburt.tumblr.com/
 authorTwitter: http://menshevixen/
 authorWebsite: ''
 posts: []
-short_bio: Diana Hurlburt is a librarian, writer, and Floridian in upstate New York.
+short_bio: Dee Holloway is a librarian, writer, and Floridian in upstate New York.
   Selections of her short fiction can be found at Body Parts, cahoodaloodaling, Luna
   Station Quarterly, Memoir Mixtapes, and Saw Palm, and in the anthology Equus. Find
   her on Twitter @menshevixen for horses and iced coffee!
