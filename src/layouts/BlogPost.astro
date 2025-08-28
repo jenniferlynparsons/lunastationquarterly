@@ -1,15 +1,31 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import PageContainer from "../components/PageContainer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import HeroImage from "../components/HeroImage.astro";
+import PageContainer from "../components/PageContainer.astro";
+import { TWITTER_HANDLE } from "../consts";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, heroImage, heroAltText, pubDate, author, postCategory, categorySlug } = Astro.props;
+const { title, heroImage, heroAltText, pubDate, author, postCategory, categorySlug, excerpt } = Astro.props;
+const ogImage = heroImage ? `/images/${heroImage}` : undefined;
+const publishedTime = new Date(pubDate).toISOString();
+const twitterCreator = TWITTER_HANDLE; // Could be customized per author if you have author Twitter handles
 ---
 
-<PageContainer sidebarVisible>
+<PageContainer 
+  sidebarVisible
+  title={title}
+  description={excerpt}
+  image={ogImage}
+  imageAlt={heroAltText}
+  excerpt={excerpt}
+  articleType="article"
+  publishedTime={publishedTime}
+  authorName={author}
+  section={postCategory}
+  twitterCreator={twitterCreator}
+>
   <div>
     {heroImage && <HeroImage imagePath={heroImage} altText={heroAltText ? heroAltText : ""} />}
   </div>
