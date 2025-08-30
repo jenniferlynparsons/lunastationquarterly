@@ -35,7 +35,6 @@ const purchaseLinks = [
   payhipLink,
   gumroadLink,
   weightlessLink,
-  koboLink,
   kindleLink,
 ]
 
@@ -74,7 +73,7 @@ const authorsList = authors
 
         <p class="mt-4 mb-0">Or buy digital from our retailers:</p>
         {weightlessLink ? <LinkButton url={weightlessLink} linkText="Weightless Books" /> : <InactiveLinkButton linkText="Weightless Books" />}
-        {koboLink ? <LinkButton url={koboLink} linkText="Kobo" /> : <InactiveLinkButton linkText="Kobo" />}
+        {koboLink && <LinkButton url={koboLink} linkText="Kobo" />}
         {kindleLink ? <LinkButton url={kindleLink} linkText="Kindle" /> : <InactiveLinkButton linkText="Kindle" />}
       </div>
     </div>
