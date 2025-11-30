@@ -32,6 +32,7 @@ const issues = defineCollection({
 		artistLink: z.string().optional().nullable(),
 		stories: z.array(z.string()).nullable(),
 		authors: z.array(z.string()).nullable(),
+		translators: z.array(z.string()).optional().nullable(),
 		amazonLink: z.string().optional().nullable(),
 		gumroadLink: z.string().optional().nullable(),
 		weightlessLink: z.string().optional().nullable(),
@@ -58,6 +59,8 @@ const authors = defineCollection({
 		authorInstagram: z.string().optional().nullable(),
 		authorAmazon: z.string().optional().nullable(),
 		authorLinkedIn: z.string().optional().nullable(),
+		isTranslator: z.boolean().optional(),
+		translatorFor: z.array(z.string()).optional().nullable(),
 	}),
 });
 

@@ -15,6 +15,7 @@ const {
   volumeNumber,
   stories,
   authors,
+  translators,
   coverImage,
   artistLink,
   artistName,
@@ -42,6 +43,16 @@ const authorsList = authors
   ? authors.map((author) => {
       const authorSlug = author.replace(/[']+/g, "").replace(/[.\s]+/g, "-").toLowerCase();
       return { author, authorSlug };
+    })
+  : [];
+
+const translatorsList = translators
+  ? translators.map((translator) => {
+      if (!translator || translator.trim() === '') {
+        return null;
+      }
+      const translatorSlug = translator.replace(/[']+/g, "").replace(/[.\s]+/g, "-").toLowerCase();
+      return { translator, translatorSlug };
     })
   : [];
 ---
@@ -98,6 +109,14 @@ const authorsList = authors
                 <a href={`/authors/${authorsList[i].authorSlug}`} class="text-xs uppercase">
                   {authorsList[i].author}
                 </a>
+                {translatorsList[i] && (
+                  <span>
+                    , translated by{" "}
+                    <a href={`/authors/${translatorsList[i].translatorSlug}`} class="text-xs uppercase">
+                      {translatorsList[i].translator}
+                    </a>
+                  </span>
+                )}
               </li>
             ))}
           </ul>
