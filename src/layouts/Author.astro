@@ -18,12 +18,29 @@ const {
   authorTwitter,
   authorAmazon,
   authorLinkedIn,
+  isTranslator,
+  translatorFor,
 } = Astro.props;
 ---
 
 <PageContainer sidebarVisible>
   <PageHeader title={authorName} />
   <slot />
+  {
+    isTranslator && translatorFor && translatorFor.length > 0 && (
+      <div class="mt-8 mb-8">
+        <h2 class="font-sans text-xl mb-4">Translations</h2>
+        <p class="mb-2">
+          {authorName} has translated works by:
+        </p>
+        <ul class="list-disc ml-6">
+          {translatorFor.map((author) => (
+            <li>{author}</li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
   <div class="container w-full flex flex-row pb-20">
     {
       authorWebsite && (
