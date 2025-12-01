@@ -1,11 +1,4 @@
 ---
 authorName: Vikki Stea
-authorWebsite: N/A
-authorTwitter: N/A
-authorFacebook: N/A
-authorGoodreads: N/A
-authorTumblr: N/A
-authorMastodon: N/A
-authorBluesky: N/A
-authorInstagram: N/A
 ---
+I've written articles for magazines and newspapers for many years, many of them travel memoirs and essays.Recently I've started writing social science fiction, enjoying the freedom of imagining future evolutions of society both good and bad.
