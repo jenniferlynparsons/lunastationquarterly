@@ -1,4 +1,5 @@
 ---
+import DropdownMenuAbout from "./DropdownMenuAbout.astro";
 import HamburgerMenu from "./HamburgerMenu.astro";
 import NavLink from "./NavLink.astro";
 import { Astronav, MenuItems } from "astro-navbar";
@@ -19,12 +20,9 @@ import { Astronav, MenuItems } from "astro-navbar";
         <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
         <NavLink href="/submissions">Submissions</NavLink>
         <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
-        <NavLink href="/changes">Recent Changes</NavLink>
-        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
         <NavLink href="/support-us">Support Us</NavLink>
         <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
-        <NavLink href="/contact-us">Contact Us</NavLink>
-        <div class="sm:h-4 sm:w-px w-4 h-px bg-lsq-gray-light"></div>
+        <DropdownMenuAbout />
       </ul>
     </MenuItems>
   </navbar>
