@@ -1,12 +1,10 @@
 ---
 authorBluesky: https://bsky.app/profile/emmiechristie33.bsky.social
-authorFacebook: https://www.facebook.com/EmmieChristieFiction/
 authorGoodreads: https://www.goodreads.com/author/show/22166974.Emmie_Christie
 authorInstagram: ''
 authorMastodon: ''
 authorName: Emmie Christie
 authorTumblr: ''
-authorTwitter: https://x.com/EmmieChristie33./
 authorWebsite: https://www.emmiechristie.com/
 posts:
 - 'Issue 049 Author Interview: Emmie Christie and "The Time Speaker"'
@@ -19,4 +17,4 @@ stories:
 - The Time Speaker
 ---
 
-Emmie Christie’s work includes practical subjects, like feminism and mental health, and speculative subjects, like unicorns and affordable healthcare. Her novel "A Caged and Restless Magic" debuted February 2024. She narrates audiobooks for Audible and loves bringing stories to life out loud as well as on the page. Her short stories have been published in Daily Science Fiction, Infinite Worlds Magazine, and Flash Fiction Online, among others. 
+Emmie Christie’s work includes practical subjects, like feminism and mental health, and speculative subjects, like unicorns and affordable healthcare. Her debut novel, A Caged and Restless Magic, earned a starred Kirkus review. She has been published in Factor Four Magazine, Small Wonders, and Flash Fiction Online, among others. She also narrates for the magazine Strange Horizons. Find her at www.emmiechristie.com, her monthly newsletter, or BlueSky.
