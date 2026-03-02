@@ -25,9 +25,9 @@ const {
   gumroadLink,
   weightlessLink,
   kindleLink,
-  koboLink,
   amazonLink,
   payhipLink,
+  universalLink
 } = Astro.props;
 
 
@@ -82,10 +82,10 @@ const translatorsList = translators
         {payhipLink ? <LinkButton url={payhipLink} linkText="Payhip" /> : <InactiveLinkButton linkText="Payhip" />}
         {gumroadLink ? <LinkButton url={gumroadLink} linkText="Gumroad" /> : <InactiveLinkButton linkText="Gumroad" />}
 
-        <p class="mt-4 mb-0">Or buy digital from our retailers:</p>
+        <p class="mt-4 mb-0">Or buy digital from our retailers, including Kobo, Apple Books and more:</p>
         {weightlessLink ? <LinkButton url={weightlessLink} linkText="Weightless Books" /> : <InactiveLinkButton linkText="Weightless Books" />}
-        {koboLink && <LinkButton url={koboLink} linkText="Kobo" />}
         {kindleLink ? <LinkButton url={kindleLink} linkText="Kindle" /> : <InactiveLinkButton linkText="Kindle" />}
+        {universalLink && <LinkButton url={universalLink} linkText="Other retailers" />}
       </div>
     </div>
     <div class="w-full h-full p-3 lg:ml-4">
