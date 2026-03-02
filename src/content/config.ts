@@ -36,7 +36,7 @@ const issues = defineCollection({
 		amazonLink: z.string().optional().nullable(),
 		gumroadLink: z.string().optional().nullable(),
 		weightlessLink: z.string().optional().nullable(),
-		koboLink: z.string().optional().nullable(),
+		universalLink: z.string().optional().nullable(),
 		kindleLink: z.string().optional().nullable(),
 		isbn10: z.string().optional().nullable(),
 		isbn13: z.string().optional().nullable(),
