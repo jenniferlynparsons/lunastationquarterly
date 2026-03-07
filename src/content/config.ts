@@ -34,6 +34,7 @@ const issues = defineCollection({
 		authors: z.array(z.string()).nullable(),
 		translators: z.array(z.string()).optional().nullable(),
 		amazonLink: z.string().optional().nullable(),
+		ingramLink: z.string().optional().nullable(),
 		gumroadLink: z.string().optional().nullable(),
 		weightlessLink: z.string().optional().nullable(),
 		universalLink: z.string().optional().nullable(),
