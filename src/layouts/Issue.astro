@@ -26,6 +26,7 @@ const {
   weightlessLink,
   kindleLink,
   amazonLink,
+  ingramLink,
   payhipLink,
   universalLink
 } = Astro.props;
@@ -73,16 +74,20 @@ const translatorsList = translators
           </div>
         )}
 
-        <p class="mt-4 mb-0">Choose a gorgeous print edition:</p>
-        {amazonLink ? <LinkButton url={amazonLink} linkText="Amazon" /> : <InactiveLinkButton linkText="Amazon" />}
+        <h3 class="mt-4 mb-0 font-sans">Buy direct from us:</h3>
 
+        {ingramLink && <LinkButton url={ingramLink} linkText="Print" />}
         <p class="mt-4 mb-0">
-          Buy a digital copy direct from us: <span class="text-xs">(Includes EPUB, MOBI &amp; PDF, DRM-free!)</span>
+          Digital <span class="text-xs">(DRM-free!)</span>
         </p>
         {payhipLink ? <LinkButton url={payhipLink} linkText="Payhip" /> : <InactiveLinkButton linkText="Payhip" />}
         {gumroadLink ? <LinkButton url={gumroadLink} linkText="Gumroad" /> : <InactiveLinkButton linkText="Gumroad" />}
-
-        <p class="mt-4 mb-0">Or buy digital from our retailers, including Kobo, Apple Books and more:</p>
+        
+        
+        
+        <h3 class="mt-8 mb-0 font-sans">Or from our retailers:</h3>
+        {amazonLink ? <LinkButton url={amazonLink} linkText="Amazon print" /> : <InactiveLinkButton linkText="Amazon" />}
+        <p class="mb-0">Digital <span class="text-xs">(DRM-free!)</span></p>
         {weightlessLink ? <LinkButton url={weightlessLink} linkText="Weightless Books" /> : <InactiveLinkButton linkText="Weightless Books" />}
         {kindleLink ? <LinkButton url={kindleLink} linkText="Kindle" /> : <InactiveLinkButton linkText="Kindle" />}
         {universalLink && <LinkButton url={universalLink} linkText="Other retailers" />}
