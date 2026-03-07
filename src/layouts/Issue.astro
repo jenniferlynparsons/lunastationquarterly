@@ -76,7 +76,7 @@ const translatorsList = translators
 
         <h3 class="mt-4 mb-0 font-sans">Buy direct from us:</h3>
 
-        {ingramLink ? <LinkButton url={ingramLink} linkText="Print" /> : <InactiveLinkButton linkText="Print edition" />}
+        {ingramLink && <LinkButton url={ingramLink} linkText="Print" />}
         <p class="mt-4 mb-0">
           Digital <span class="text-xs">(DRM-free!)</span>
         </p>
