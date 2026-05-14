@@ -1,0 +1,167 @@
+---
+import Page from "../layouts/Page.astro";
+import PageTitle from "../components/PageTitle.astro";
+import LinkButton from "../components/LinkButton.astro";
+---
+
+<Page title="Archive" description="The LSQ archive: every story, every issue, going back to 2010">
+  <PageTitle title="The LSQ Archive" />
+
+
+  <p class="mb-2">
+    Luna Station Quarterly has been publishing speculative fiction by women-identified authors since
+    2010. This is all of it: every story, every issue, going all the way back to the beginning.
+  </p>
+  <p class="mb-2">
+    For a long time the archive was open and free online. Then AI companies started scraping the
+    internet for training data, and our authors' work was sitting there exposed. We took it down to
+    protect them. Getting it back up took longer than we wanted, but it's back now in a
+    members-only space where the stories are safe.
+  </p>
+  <p class="mb-6">
+    The archive is online reading only, which makes it a great option if you don't do ebooks.
+    Access is available as long as your subscription is active. A new passcode is posted with each
+    quarterly issue release.
+  </p>
+
+  <hr class="border-lsq-gray-light mb-6" />
+
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">How to Access the Archive</h2>
+
+  <p class="mb-4">You've got two options.</p>
+
+  <h3 class="font-normal font-sans text-2xl m-0 pb-3">Patreon</h3>
+  <p class="mb-3">
+    Patreon includes archive access plus everything else: digital editions of new issues, exclusive
+    posts, and access to the LSQ community. If you want to be part of what we're building here,
+    this is the place.
+  </p>
+  <ul class="mb-4 marker:text-lsq-black">
+    <li>Station Resident ($1/mo): Current issue</li>
+    <li>Station Crew ($5/mo): Current issue plus the last three (a full year)</li>
+    <li>Station Lorekeeper ($10/mo): Full archive back to 2010</li>
+    <li>Command Crew ($15/mo): Full archive plus print</li>
+  </ul>
+  <div class="mb-6">
+    <LinkButton url="https://patreon.com/lunastation" linkText="Join on Patreon" />
+  </div>
+
+  <h3 class="font-normal font-sans text-2xl m-0 pb-3">Payhip</h3>
+  <p class="mb-3">
+    Payhip is online-only archive access, no extras. If you just want the stories, this works
+    great.
+  </p>
+  <ul class="mb-3 marker:text-lsq-black">
+    <li>Station Resident ($3/quarter): Current issue</li>
+    <li>Station Crew ($12/quarter): Current issue plus the last three</li>
+    <li>Station Lorekeeper ($25/quarter): Full archive back to 2010</li>
+  </ul>
+  <p class="mb-4 italic text-lsq-gray">Note: Command Crew (print) is Patreon-only.</p>
+  <div class="mb-6">
+    <LinkButton url="https://payhip.com/b/Pu7eM" linkText="Join on Payhip" />
+  </div>
+
+  <hr class="border-lsq-gray-light mb-6" />
+
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">What's in the Archive</h2>
+
+  <p class="mb-2">
+    65+ issues. 900+ stories. Fifteen years of speculative fiction by women-identified authors:
+    science fiction, fantasy, space opera, fairy tales, weird fiction, and everything in between.
+  </p>
+  <p class="mb-6">We publish four times a year. The archive grows with every issue.</p>
+
+  <hr class="border-lsq-gray-light mb-6" />
+
+  <h2 class="font-normal font-sans text-3xl m-0 pb-4">Questions</h2>
+
+  <p class="mb-6">
+    Check the FAQ below, or use our <a href="/contact-us">contact form</a> if you need something
+    we haven't covered.
+  </p>
+
+  <dl class="space-y-6">
+    <div>
+      <dt class="font-bold mb-1">How do I access the archive?</dt>
+      <dd>
+        When you subscribe, you'll receive a passcode that unlocks the archive site. The passcode
+        is posted with each new issue release on both Payhip and Patreon. You'll need an active
+        subscription to receive it.
+      </dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">Does the passcode change?</dt>
+      <dd>
+        Yes, every time a new issue comes out (four times a year). As long as your subscription is
+        active, you'll have access to the updated passcode when it's posted.
+      </dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">What format are the issues in?</dt>
+      <dd>
+        The archive is online reading only. No downloads or ebook files. This makes it a great
+        option for readers who prefer not to manage ebook libraries.
+      </dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">What happens if I cancel my subscription?</dt>
+      <dd>
+        Your access ends when your subscription lapses. You won't receive future passcodes after
+        canceling.
+      </dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">I'm a Station Resident. What happens when a new issue comes out?</dt>
+      <dd>
+        The current issue rotates with each new release. When a new issue publishes, the previous
+        one is no longer included in your tier.
+      </dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">How many issues are in the archive?</dt>
+      <dd>
+        65+ issues going back to 2010, with over 900 stories. Station Lorekeeper members get
+        access to all of it.
+      </dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">Can I switch from Payhip to Patreon?</dt>
+      <dd>
+        Yes! Patreon membership includes everything on Payhip plus digital editions, exclusive
+        posts, and access to the LSQ community. You can join Patreon anytime and cancel your
+        Payhip subscription when you're ready.{" "}
+        
+      </dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">Can I upgrade my tier?</dt>
+      <dd>Yes, anytime.</dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">Can I share my passcode?</dt>
+      <dd>
+        We operate on the honor system here. LSQ is a small independent publication run mostly by
+        volunteers, and subscriptions are what keep it going. If you love the archive, the best
+        thing you can do is encourage the people in your life to subscribe too.
+      </dd>
+    </div>
+
+    <div>
+      <dt class="font-bold mb-1">What's the difference between Payhip and Patreon?</dt>
+      <dd>
+        Both support LSQ directly. Payhip is straightforward online-only archive access. Patreon
+        costs a little more but gives you a lot more: digital editions, exclusive posts, and access
+        to the LSQ community. It's also where you'll find our Editor In Chief, Jennifer Lyn Parsons.
+        
+      </dd>
+    </div>
+  </dl>
+</Page>
