@@ -13,6 +13,10 @@ const issues = (await getCollection("issues")).sort((a, b) => b.data.pubDate.val
 
 <Page title="Issues" description={SITE_DESCRIPTION}>
   <PageHeader title="Issue Archives" />
+  <div class="p-4 bg-lsq-alert border-l-4 border-lsq-orange my-8">
+    <p class="my-0 font-sans font-semibold">Looking for the full archive?</p>
+    <p class="my-0">Members can read every issue going back to 2010. <a href="/archive" class="text-lsq-orange hover:text-lsq-orange-light">Learn more about archive access.</a></p>
+  </div>
   <div class="container mb-20 grid grid-cols-4 gap-8 text-center">
     {
       issues.map((issue) => (
