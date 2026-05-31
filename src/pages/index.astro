@@ -13,6 +13,10 @@ const posts = (await getCollection("blog"))
 ---
 
 <Page title="Homepage" description={SITE_DESCRIPTION}>
+   <div class="p-4 bg-lsq-alert border-l-4 border-lsq-orange mb-8">
+    <p class="my-0 font-sans font-semibold">Looking for our story archive?</p>
+    <p class="my-0">Members can now read every issue going back to 2010. <a href="/archive" class="text-lsq-orange hover:text-lsq-orange-light">Learn more about archive access.</a></p>
+  </div>
   <div class="mb-10">
     {
       posts.map((post) => (
