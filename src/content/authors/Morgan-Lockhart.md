@@ -6,7 +6,7 @@ authorGoodreads: https://www.goodreads.com/author/show/15488101.Morgan_Lockhart
 authorBluesky: https://bsky.app/profile/mizdoomcookie.bsky.social
 authorInstagram: https://www.instagram.com/lockhartwrites/
 ---
-Morgan Lockhart hails from the Pacific Northwest, where she currently lives with her family, including her partner, two children, and pack of fur babies. Growing up in the woods of Washington State, Morgan has always been telling and consuming stories in all shapes and sizes. A long time writer of video games and short stories, she recently released her first novel, A Spell for Midwinter's Heart, with Dutton/Penguin Random House. 
+Morgan Lockhart hails from the Pacific Northwest, where she currently lives with her family, including her partner, two children, and pack of fur babies. Growing up in the woods of Washington State, Morgan has always been telling and consuming stories in all shapes and sizes. A long time writer of video games and short stories, she recently released her first novel, A Spell for Midwinter’s Heart, with Dutton/Penguin Random House, with the second, A Curse for Christmas Past, releasing fall 2026. 
  
 
- In all forms, her work deals with the messy business of being human with wit, whimsy, and a touch of the weird.
+In all forms, her work deals with the messy business of being human with wit, whimsy, and a touch of the weird.
