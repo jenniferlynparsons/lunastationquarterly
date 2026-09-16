@@ -29,7 +29,7 @@ const posts = (await getCollection("blog"))
                   <span class="uppercase text-xs">{post.data.postCategory}</span>
                 </a>
               )}
-              <a href={`/blog/${post.slug}/`} class="no-underline">
+              <a href={`/blog/${post.id}/`} class="no-underline">
                 <h2 class="text-4xl font-normal font-sans mb-1 mt-0">{post.data.title}</h2>
               </a>
               <p class="uppercase text-xs">
@@ -52,7 +52,7 @@ const posts = (await getCollection("blog"))
             </div>
             <p>{post.data.excerpt}</p>
             <div class="text-center">
-              <LinkButton url={`/blog/${post.slug}/`} linkText="Read more" />
+              <LinkButton url={`/blog/${post.id}/`} linkText="Read more" />
             </div>
           </div>
           <hr />

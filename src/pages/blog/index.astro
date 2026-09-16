@@ -24,7 +24,7 @@ const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueO
                   <span class="uppercase text-xs">{post.data.postCategory}</span>
                 </a>
               )}
-              <a href={`/blog/${post.slug}/`} class="no-underline">
+              <a href={`/blog/${post.id}/`} class="no-underline">
                 <h2 class="text-2xl font-normal font-sans mb-1 mt-0">{post.data.title}</h2>
               </a>
               <p class="uppercase text-xs">
@@ -48,7 +48,7 @@ const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueO
             <p>
               {post.data.excerpt}{" "}
               <span>
-                <a href={`/blog/${post.slug}/`}>Continue reading...</a>
+                <a href={`/blog/${post.id}/`}>Continue reading...</a>
               </span>
             </p>
           </div>

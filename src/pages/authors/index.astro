@@ -11,7 +11,7 @@ const authors = await getCollection("authors");
     {
       authors.map((author) => (
         <li>
-          <a href={`/authors/${author.slug}/`}>{author.data.authorName}</a>
+          <a href={`/authors/${author.id}/`}>{author.data.authorName}</a>
         </li>
       ))
     }

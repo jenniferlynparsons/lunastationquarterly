@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Ported from tailwind.config.mjs (Tailwind v3 -> v4 CSS-first config) */
+@theme {
+  --color-lsq-green: #b6ac31;
+  --color-lsq-orange: #d24719;
+  --color-lsq-orange-light: #dc6d48;
+  --color-lsq-alert: #ffe6de;
+  --color-lsq-white: #ffffff;
+  --color-lsq-black: #222222;
+  --color-lsq-gray-light: #eeeeee;
+  --color-lsq-gray-dark: #999999;
+  --color-lsq-gray: #3d3d3d;
+
+  --font-sans: "Oswald", sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+}
+
+/* Named border-width utilities (v3 theme.borderWidth, directional forms in use) */
+@utility border-t-header { border-top-width: 24px; }
+@utility border-t-footer { border-top-width: 8px; }
+@utility border-t-definition-list { border-top-width: 1px; }
+@utility border-b-subfooter { border-bottom-width: 4px; }
+@utility border-b-navlink { border-bottom-width: 2px; }
+@utility border-b-navbar { border-bottom-width: 1px; }
+
+/* Header background image (v3 theme.backgroundImage.header) */
+@utility bg-header { background-image: url("/images/header.png"); }
+
+/* Preserve v3 container { center: true } */
+@utility container { margin-inline: auto; }
+
+/* Prose color overrides (v3 theme.extend.typography.DEFAULT) */
+.prose {
+  --tw-prose-body: #222222;
+  --tw-prose-links: #d24719;
+}
+.prose :where(a):hover { color: #b6ac31; }
